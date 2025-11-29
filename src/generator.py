@@ -24,4 +24,4 @@ class DatasetGenerator:
             path = out_dir / builder.file_name
             save_json_array(path, examples)
             print(f"Wrote {len(examples):4d} examples -> {path}")
-  
+   

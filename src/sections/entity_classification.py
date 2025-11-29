@@ -55,4 +55,4 @@ class EntityClassificationTrainingBuilder(SectionBuilder):
             })
 
         return examples
- 
+  

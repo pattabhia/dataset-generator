@@ -49,4 +49,4 @@ def load_domain_config(config_path: Path, domain_id: str) -> DomainConfig:
             )
 
     raise ValueError(f"Domain id '{domain_id}' not found in {config_path}")
-  
+   

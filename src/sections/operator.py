@@ -75,4 +75,4 @@ class OperatorTrainingBuilder(SectionBuilder):
             })
 
         return examples
- 
+  

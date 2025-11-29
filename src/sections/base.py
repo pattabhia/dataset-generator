@@ -28,4 +28,4 @@ class SectionBuilder(ABC):
     def build_examples(self) -> List[Dict[str, Any]]:
         """Return list of training examples for this section."""
         raise NotImplementedError
- 
+  

@@ -22,4 +22,4 @@ def default_currencies(cfg: DomainConfig) -> List[str]:
 
 def default_expense_doc_types(cfg: DomainConfig) -> List[str]:
     return cfg.expense_doc_types or ["Invoice", "Bill", "Receipt"]
-  
+   

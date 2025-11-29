@@ -45,4 +45,4 @@ class HardNegativesTrainingBuilder(SectionBuilder):
             })
 
         return examples
- 
+  

@@ -69,4 +69,4 @@ class CompanyKBNoHallucinationsTrainingBuilder(SectionBuilder):
             })
 
         return examples
- 
+  
