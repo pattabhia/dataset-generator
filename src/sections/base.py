@@ -5,7 +5,7 @@ from __future__ import annotations
 from abc import ABC, abstractmethod
 from typing import Any, Dict, List
 
-from ..domain_config import DomainConfig
+from src.domain_config import DomainConfig
 
 
 class SectionBuilder(ABC):

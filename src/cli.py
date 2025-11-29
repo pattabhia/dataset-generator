@@ -5,7 +5,7 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
-from .domain_config import load_domain_config
+from src.domain_config import load_domain_config
 from .factory import SectionBuilderFactory
 from .generator import DatasetGenerator
 

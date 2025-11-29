@@ -14,6 +14,13 @@ from .company_kb import (
 from .business_integration import BusinessIntegrationTrainingBuilder
 from .expense_docs import ExpenseDocumentsTrainingBuilder
 
+# NEW
+from .business_context import BusinessContextReasoningBuilder
+from .resume_intelligence import ResumeIntelligenceTrainingBuilder
+from .entity_reasoning_depth import EntityReasoningDepthTrainingBuilder
+from .advanced_entity_classification import AdvancedEntityClassificationTrainingBuilder
+from .advanced_operator_logic import AdvancedOperatorDecisionBuilder
+
 __all__ = [
     "SectionBuilder",
     "IntroTrainingBuilder",
@@ -26,5 +33,9 @@ __all__ = [
     "CompanyKBNoHallucinationsTrainingBuilder",
     "BusinessIntegrationTrainingBuilder",
     "ExpenseDocumentsTrainingBuilder",
+    "BusinessContextReasoningBuilder",
+    "ResumeIntelligenceTrainingBuilder",
+    "EntityReasoningDepthTrainingBuilder",
+    "AdvancedEntityClassificationTrainingBuilder",
+    "AdvancedOperatorDecisionBuilder",
 ]
-  

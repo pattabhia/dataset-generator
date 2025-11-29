@@ -6,7 +6,7 @@ import json
 from pathlib import Path
 from typing import Any, Dict, List
 
-from .domain_config import DomainConfig
+from src.domain_config import DomainConfig
 
 
 def save_json_array(path: Path, items: List[Dict[str, Any]]) -> None:
