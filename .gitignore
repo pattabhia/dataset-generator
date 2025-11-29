@@ -1,0 +1,11 @@
+venv/
+training_output/
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+data/
+logs/
+*.log
+model_checkpoints/
+training-jsons/

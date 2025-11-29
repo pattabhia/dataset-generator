@@ -1,0 +1,47 @@
+domains:
+  - id: haiintel_core
+    company_name: "HaiIntel"
+    agent_name: "HAIIndexer"
+    chat_agent_name: "HAI Reach agent"
+    domain_name: "Enterprise AI OS"
+    kb_label: "HaiIntel Core Knowledge Base"
+    primary_products: ["HAIIndexer", "HAIReach", "VSMA"]
+    primary_roles: ["CTO", "CIO", "Head of Architecture"]
+    primary_regions: ["Global", "UAE", "India", "Europe"]
+    entity_types:
+      - "Person"
+      - "Project"
+      - "Skill"
+      - "Organization"
+      - "Product"
+      - "ArchitecturePattern"
+
+  - id: expense
+    company_name: "HaiIntel"
+    agent_name: "HAIIndexer"
+    chat_agent_name: "HAI Expense Agent"
+    domain_name: "Expense Management"
+    kb_label: "HaiIntel Expense Knowledge Base"
+    primary_products: ["HAIExpenseLens", "HAIIndexer", "HAIReach"]
+    primary_roles: ["CFO", "Finance Controller", "Expense Ops Lead", "Internal Auditor"]
+    primary_regions: ["Global", "UAE", "India", "Nigeria"]
+    entity_types:
+      - "Person"
+      - "CostCenter"
+      - "ExpensePolicy"
+      - "ExpenseReport"
+      - "Vendor"
+      - "GLAccount"
+      - "Invoice"
+      - "Receipt"
+      - "CardTransaction"
+    expense_doc_types:
+      - "Invoice"
+      - "Bill"
+      - "Receipt"
+      - "CreditNote"
+    currencies:
+      - "INR"
+      - "USD"
+      - "AED"
+      - "EUR"
