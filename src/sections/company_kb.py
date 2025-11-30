@@ -17,9 +17,44 @@ class CompanyKBTrainingBuilder(SectionBuilder):
 
     def build_examples(self) -> List[Dict[str, Any]]:
         cfg = self.config
-        n = 120
         examples: List[Dict[str, Any]] = []
 
+        # Check if real company KB facts are provided via config. If present, use them
+        # instead of auto-generated placeholder facts. Facts should be a list of
+        # strings, each describing a factual statement about the company.
+        facts: List[str] | None = getattr(cfg, "company_kb_facts", None)
+        if facts:
+            # Use the number of provided facts as the dataset size. If there are
+            # fewer than three facts, cycle through templates for diversity.
+            for idx, fact in enumerate(facts, start=1):
+                system = f"You are {cfg.agent_name}, answer using only {cfg.kb_label}."
+                # Use a generic instruction prompting for the fact index.
+                # Templates could be extended here for further variation.
+                instruction = f"Provide detail {idx} about {cfg.company_name} according to the KB."
+                output = fact
+
+                metadata = make_metadata(
+                    section="company_kb_positive",
+                    index=idx,
+                    complexity="low",
+                    tags=["company_kb", "positive", "fact"],
+                    reasoning_mode="lookup",
+                )
+
+                examples.append({
+                    "system": system,
+                    "instruction": instruction,
+                    "input": "",
+                    "output": output,
+                    "metadata": metadata,
+                })
+            return examples
+
+        # No real facts provided – fall back to placeholder generation using the
+        # original logic with varied question and answer templates. Maintain
+        # compatibility with existing datasets by generating a fixed number of
+        # examples (n).
+        n = 120
         # Varied question prompts and factual templates to improve diversity
         question_templates = [
             "What does the company KB say about {company} detail {idx}?",

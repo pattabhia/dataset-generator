@@ -23,6 +23,8 @@ class DomainConfig:
     entity_types: List[str]
     expense_doc_types: Optional[List[str]] = None
     currencies: Optional[List[str]] = None
+    # New field
+    company_kb_facts: Optional[List[str]] = None
 
 
 def load_domain_config(config_path: Path, domain_id: str) -> DomainConfig:
@@ -46,6 +48,8 @@ def load_domain_config(config_path: Path, domain_id: str) -> DomainConfig:
                 entity_types=d["entity_types"],
                 expense_doc_types=d.get("expense_doc_types"),
                 currencies=d.get("currencies"),
+                company_kb_facts=d.get("company_kb_facts")
+                
             )
 
     raise ValueError(f"Domain id '{domain_id}' not found in {config_path}")

@@ -15,6 +15,14 @@ domains:
       - "Organization"
       - "Product"
       - "ArchitecturePattern"
+    # Realistic company knowledge base facts for the core domain. These facts
+    # replace placeholder text in company_kb_training.json. Update or extend
+    # this list with additional authoritative facts as needed.
+    company_kb_facts:
+      - "HaiIntel’s leadership team has over 50 years of combined experience in enterprise transformation, AI architecture, and business strategy across Fortune 500 companies and high‑growth startups."
+      - "HaiIntel partners with CIOs to embed human‑rooted AI into enterprise transformation, accelerating outcomes through intelligence‑first systems."
+      - "All HaiIntel products share a unified memory, governance layer and interface design, enabling rapid adoption and responsible scaling across enterprise use cases."
+      - "HaiIntel offers multiple products, including HaiIntel‑Recode, HaiReach, HaiOnboarding, HaiResolve and HaiModels, each addressing specific enterprise AI needs."
 
   - id: expense
     company_name: "HaiIntel"
@@ -45,4 +53,12 @@ domains:
       - "USD"
       - "AED"
       - "EUR"
+    # Realistic company knowledge base facts for the expense domain. These facts
+    # replace placeholder text in company_kb_training.json. Update or extend
+    # this list with additional authoritative facts as needed.
+    company_kb_facts:
+      - "HaiIntel’s leadership team has over 50 years of combined experience in enterprise transformation, AI architecture, and business strategy across Fortune 500 companies and high‑growth startups."
+      - "HaiIntel partners with CIOs to embed human‑rooted AI into enterprise transformation, accelerating outcomes through intelligence‑first systems."
+      - "All HaiIntel products share a unified memory, governance layer and interface design, enabling rapid adoption and responsible scaling across enterprise use cases."
+      - "HaiIntel offers multiple products, including HaiIntel‑Recode, HaiReach, HaiOnboarding, HaiResolve and HaiModels, each addressing specific enterprise AI needs."
   
