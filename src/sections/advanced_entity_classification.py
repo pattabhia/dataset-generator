@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import json
 from typing import Any, Dict, List
 
 from .base import SectionBuilder
@@ -57,7 +58,7 @@ class AdvancedEntityClassificationTrainingBuilder(SectionBuilder):
                 for label in possible_labels
             }
 
-            output = {
+            output_dict = {
                 "entity": raw_name,
                 "multi_label": True,
                 "predicted_labels": labels,
@@ -78,7 +79,7 @@ class AdvancedEntityClassificationTrainingBuilder(SectionBuilder):
                 "system": system,
                 "instruction": instruction,
                 "input": raw_name,
-                "output": output,
+                "output": json.dumps(output_dict, ensure_ascii=False),
                 "metadata": meta,
             })
 

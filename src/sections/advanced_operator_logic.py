@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import json
 from typing import Any, Dict, List
 
 from .base import SectionBuilder
@@ -114,13 +115,11 @@ class AdvancedOperatorDecisionBuilder(SectionBuilder):
                 scenario=scenario["key"],
             )
 
-            output = operator_decision
-
             examples.append({
                 "system": system,
                 "instruction": instruction,
                 "input": input_ctx,
-                "output": output,
+                "output": json.dumps(operator_decision, ensure_ascii=False),
                 "metadata": meta,
             })
 

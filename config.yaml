@@ -19,10 +19,22 @@ domains:
     # replace placeholder text in company_kb_training.json. Update or extend
     # this list with additional authoritative facts as needed.
     company_kb_facts:
-      - "HaiIntel’s leadership team has over 50 years of combined experience in enterprise transformation, AI architecture, and business strategy across Fortune 500 companies and high‑growth startups."
+      - "HaiIntel's leadership team brings together more than 50 years of combined experience in enterprise transformation, AI architecture and business strategy across Fortune 500 companies and high‑growth startups."
       - "HaiIntel partners with CIOs to embed human‑rooted AI into enterprise transformation, accelerating outcomes through intelligence‑first systems."
-      - "All HaiIntel products share a unified memory, governance layer and interface design, enabling rapid adoption and responsible scaling across enterprise use cases."
-      - "HaiIntel offers multiple products, including HaiIntel‑Recode, HaiReach, HaiOnboarding, HaiResolve and HaiModels, each addressing specific enterprise AI needs."
+      - "All HaiIntel products share a unified memory, governance layer and interface design, making them ready for fast adoption and responsible scaling."
+      - "HaiIntel‑Recode is an AI‑powered agent that analyzes and restructures legacy codebases, aligning them to TM Forum standards and modular microservice architectures. Outcome pricing is based on APIs migrated, rules extracted and code modularized."
+      - "HaiReach crawls external and internal data sources (LinkedIn, CAC, CRM), offers intelligent lead scoring and enrichment, and targets B2B growth teams and field sales. Outcome pricing includes qualified leads, time‑to‑contact and campaign ROI."
+      - "HaiOnboarding orchestrates customer onboarding journeys with AI prompts, performs KYC and risk scoring, and plugs into core banking and telecom stacks. Outcome pricing metrics include faster onboarding, lower drop‑offs and higher NPS."
+      - "HaiResolve provides co‑pilot agents for smarter ticketing, with AI classification, triage and resolution suggestions. It integrates with ITSM, CRM and contact centres, and learns from agent feedback. Outcome pricing is based on MTTR reduction, first‑contact resolution improvements and ticket auto‑resolution."
+      - "HaiModels delivers fine‑tuned large language models hosted for enterprise privacy and domain awareness. It offers APIs for summarization, co‑pilot functions and semantic search, and is embedded across HaiIntel products."
+      - "HaiIntel deploys domain‑agnostic Intelligence HaiPODs pairing AI engineers with business leaders to deliver value in specific use cases."
+      - "The Customer Onboarding AI POD streamlines customer acquisition with AI‑powered verification, risk assessment and journey orchestration. It is used in banking and government sectors."
+      - "The Rewards AI POD designs intelligent loyalty systems that personalise rewards and predict customer behaviour. It is used in retail and telecom sectors."
+      - "The Modernisation AI POD transforms legacy systems with AI‑first architecture while preserving business continuity."
+      - "The Citizen Services AI POD enhances public services through intelligent automation and citizen‑experience design for GovTech use cases."
+      - "The Experience AI POD creates human‑centred AI experiences that adapt to user needs and business objectives."
+      - "HaiIntel uses a technology‑agnostic approach with best‑in‑class AI tools to build robust, scalable solutions. They categorise tools into LLMs and agent platforms (ChatGPT, Claude, Gemini, LLaMA), speech and vision (ElevenLabs, Google TTS, Midjourney, Sora, Runway), collaboration and search, AI integration and automation, enterprise platforms and dev tools."
+      - "HaiIntel's technology selections are enterprise‑grade, best‑in‑class and integration‑ready, preserving vendor independence while abstracting complexity."
 
   - id: expense
     company_name: "HaiIntel"
@@ -57,8 +69,20 @@ domains:
     # replace placeholder text in company_kb_training.json. Update or extend
     # this list with additional authoritative facts as needed.
     company_kb_facts:
-      - "HaiIntel’s leadership team has over 50 years of combined experience in enterprise transformation, AI architecture, and business strategy across Fortune 500 companies and high‑growth startups."
+      - "HaiIntel's leadership team brings together more than 50 years of combined experience in enterprise transformation, AI architecture and business strategy across Fortune 500 companies and high‑growth startups."
       - "HaiIntel partners with CIOs to embed human‑rooted AI into enterprise transformation, accelerating outcomes through intelligence‑first systems."
-      - "All HaiIntel products share a unified memory, governance layer and interface design, enabling rapid adoption and responsible scaling across enterprise use cases."
-      - "HaiIntel offers multiple products, including HaiIntel‑Recode, HaiReach, HaiOnboarding, HaiResolve and HaiModels, each addressing specific enterprise AI needs."
+      - "All HaiIntel products share a unified memory, governance layer and interface design, making them ready for fast adoption and responsible scaling."
+      - "HaiIntel‑Recode is an AI‑powered agent that analyzes and restructures legacy codebases, aligning them to TM Forum standards and modular microservice architectures. Outcome pricing is based on APIs migrated, rules extracted and code modularized."
+      - "HaiReach crawls external and internal data sources (LinkedIn, CAC, CRM), offers intelligent lead scoring and enrichment, and targets B2B growth teams and field sales. Outcome pricing includes qualified leads, time‑to‑contact and campaign ROI."
+      - "HaiOnboarding orchestrates customer onboarding journeys with AI prompts, performs KYC and risk scoring, and plugs into core banking and telecom stacks. Outcome pricing metrics include faster onboarding, lower drop‑offs and higher NPS."
+      - "HaiResolve provides co‑pilot agents for smarter ticketing, with AI classification, triage and resolution suggestions. It integrates with ITSM, CRM and contact centres, and learns from agent feedback. Outcome pricing is based on MTTR reduction, first‑contact resolution improvements and ticket auto‑resolution."
+      - "HaiModels delivers fine‑tuned large language models hosted for enterprise privacy and domain awareness. It offers APIs for summarization, co‑pilot functions and semantic search, and is embedded across HaiIntel products."
+      - "HaiIntel deploys domain‑agnostic Intelligence HaiPODs pairing AI engineers with business leaders to deliver value in specific use cases."
+      - "The Customer Onboarding AI POD streamlines customer acquisition with AI‑powered verification, risk assessment and journey orchestration. It is used in banking and government sectors."
+      - "The Rewards AI POD designs intelligent loyalty systems that personalise rewards and predict customer behaviour. It is used in retail and telecom sectors."
+      - "The Modernisation AI POD transforms legacy systems with AI‑first architecture while preserving business continuity."
+      - "The Citizen Services AI POD enhances public services through intelligent automation and citizen‑experience design for GovTech use cases."
+      - "The Experience AI POD creates human‑centred AI experiences that adapt to user needs and business objectives."
+      - "HaiIntel uses a technology‑agnostic approach with best‑in‑class AI tools to build robust, scalable solutions. They categorise tools into LLMs and agent platforms (ChatGPT, Claude, Gemini, LLaMA), speech and vision (ElevenLabs, Google TTS, Midjourney, Sora, Runway), collaboration and search, AI integration and automation, enterprise platforms and dev tools."
+      - "HaiIntel's technology selections are enterprise‑grade, best‑in‑class and integration‑ready, preserving vendor independence while abstracting complexity."
   
