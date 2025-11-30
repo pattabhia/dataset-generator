@@ -10,3 +10,4 @@ logs/
 model_checkpoints/
 training_output/
 training-*
+output/
