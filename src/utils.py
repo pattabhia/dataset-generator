@@ -6,7 +6,7 @@ import json
 from pathlib import Path
 from typing import Any, Dict, List
 
-from src.domain_config import DomainConfig
+from .domain_config import DomainConfig
 
 
 # -----------------------------------------------------------------------------
@@ -27,8 +27,6 @@ from src.domain_config import DomainConfig
 # * ``compute_stats`` returns a summary of the dataset for transparency.
 # * ``save_json_array`` now deduplicates, validates and saves both the data and
 #   a sidecar ``*_stats.json`` file with high level statistics.
-
-from typing import Optional, Any, Dict, List
 
 def make_metadata(section: str, index: int, complexity: str, tags: List[str],
                   reasoning_mode: str, confidence: float = 1.0,
