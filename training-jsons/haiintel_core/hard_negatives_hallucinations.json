@@ -1,0 +1,646 @@
+[
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "Can you tell me who UnknownEnterpriseAIOSEntity1 is?",
+    "input": "",
+    "output": "There are no records for 'UnknownEnterpriseAIOSEntity1' in our Enterprise AI OS data set. I prefer to say I don't know rather than guess.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 1,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "Identify UnknownEnterpriseAIOSEntity2.",
+    "input": "",
+    "output": "I couldn't locate any entity called 'UnknownEnterpriseAIOSEntity2' in the Enterprise AI OS index, so I'm unable to provide details.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 2,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "What do you know about UnknownEnterpriseAIOSEntity3?",
+    "input": "",
+    "output": "I don't find any entity named 'UnknownEnterpriseAIOSEntity3' in the indexed Enterprise AI OS data. I cannot reliably answer who this is based on the available information.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 3,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "Who is UnknownEnterpriseAIOSEntity4?",
+    "input": "",
+    "output": "There are no records for 'UnknownEnterpriseAIOSEntity4' in our Enterprise AI OS data set. I prefer to say I don't know rather than guess.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 4,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "Can you tell me who UnknownEnterpriseAIOSEntity5 is?",
+    "input": "",
+    "output": "I couldn't locate any entity called 'UnknownEnterpriseAIOSEntity5' in the Enterprise AI OS index, so I'm unable to provide details.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 5,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "Identify UnknownEnterpriseAIOSEntity6.",
+    "input": "",
+    "output": "I don't find any entity named 'UnknownEnterpriseAIOSEntity6' in the indexed Enterprise AI OS data. I cannot reliably answer who this is based on the available information.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 6,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "What do you know about UnknownEnterpriseAIOSEntity7?",
+    "input": "",
+    "output": "There are no records for 'UnknownEnterpriseAIOSEntity7' in our Enterprise AI OS data set. I prefer to say I don't know rather than guess.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 7,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "Who is UnknownEnterpriseAIOSEntity8?",
+    "input": "",
+    "output": "I couldn't locate any entity called 'UnknownEnterpriseAIOSEntity8' in the Enterprise AI OS index, so I'm unable to provide details.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 8,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "Can you tell me who UnknownEnterpriseAIOSEntity9 is?",
+    "input": "",
+    "output": "I don't find any entity named 'UnknownEnterpriseAIOSEntity9' in the indexed Enterprise AI OS data. I cannot reliably answer who this is based on the available information.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 9,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "Identify UnknownEnterpriseAIOSEntity10.",
+    "input": "",
+    "output": "There are no records for 'UnknownEnterpriseAIOSEntity10' in our Enterprise AI OS data set. I prefer to say I don't know rather than guess.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 10,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "What do you know about UnknownEnterpriseAIOSEntity11?",
+    "input": "",
+    "output": "I couldn't locate any entity called 'UnknownEnterpriseAIOSEntity11' in the Enterprise AI OS index, so I'm unable to provide details.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 11,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "Who is UnknownEnterpriseAIOSEntity12?",
+    "input": "",
+    "output": "I don't find any entity named 'UnknownEnterpriseAIOSEntity12' in the indexed Enterprise AI OS data. I cannot reliably answer who this is based on the available information.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 12,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "Can you tell me who UnknownEnterpriseAIOSEntity13 is?",
+    "input": "",
+    "output": "There are no records for 'UnknownEnterpriseAIOSEntity13' in our Enterprise AI OS data set. I prefer to say I don't know rather than guess.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 13,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "Identify UnknownEnterpriseAIOSEntity14.",
+    "input": "",
+    "output": "I couldn't locate any entity called 'UnknownEnterpriseAIOSEntity14' in the Enterprise AI OS index, so I'm unable to provide details.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 14,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "What do you know about UnknownEnterpriseAIOSEntity15?",
+    "input": "",
+    "output": "I don't find any entity named 'UnknownEnterpriseAIOSEntity15' in the indexed Enterprise AI OS data. I cannot reliably answer who this is based on the available information.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 15,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "Who is UnknownEnterpriseAIOSEntity16?",
+    "input": "",
+    "output": "There are no records for 'UnknownEnterpriseAIOSEntity16' in our Enterprise AI OS data set. I prefer to say I don't know rather than guess.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 16,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "Can you tell me who UnknownEnterpriseAIOSEntity17 is?",
+    "input": "",
+    "output": "I couldn't locate any entity called 'UnknownEnterpriseAIOSEntity17' in the Enterprise AI OS index, so I'm unable to provide details.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 17,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "Identify UnknownEnterpriseAIOSEntity18.",
+    "input": "",
+    "output": "I don't find any entity named 'UnknownEnterpriseAIOSEntity18' in the indexed Enterprise AI OS data. I cannot reliably answer who this is based on the available information.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 18,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "What do you know about UnknownEnterpriseAIOSEntity19?",
+    "input": "",
+    "output": "There are no records for 'UnknownEnterpriseAIOSEntity19' in our Enterprise AI OS data set. I prefer to say I don't know rather than guess.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 19,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "Who is UnknownEnterpriseAIOSEntity20?",
+    "input": "",
+    "output": "I couldn't locate any entity called 'UnknownEnterpriseAIOSEntity20' in the Enterprise AI OS index, so I'm unable to provide details.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 20,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "Can you tell me who UnknownEnterpriseAIOSEntity21 is?",
+    "input": "",
+    "output": "I don't find any entity named 'UnknownEnterpriseAIOSEntity21' in the indexed Enterprise AI OS data. I cannot reliably answer who this is based on the available information.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 21,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "Identify UnknownEnterpriseAIOSEntity22.",
+    "input": "",
+    "output": "There are no records for 'UnknownEnterpriseAIOSEntity22' in our Enterprise AI OS data set. I prefer to say I don't know rather than guess.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 22,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "What do you know about UnknownEnterpriseAIOSEntity23?",
+    "input": "",
+    "output": "I couldn't locate any entity called 'UnknownEnterpriseAIOSEntity23' in the Enterprise AI OS index, so I'm unable to provide details.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 23,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "Who is UnknownEnterpriseAIOSEntity24?",
+    "input": "",
+    "output": "I don't find any entity named 'UnknownEnterpriseAIOSEntity24' in the indexed Enterprise AI OS data. I cannot reliably answer who this is based on the available information.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 24,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "Can you tell me who UnknownEnterpriseAIOSEntity25 is?",
+    "input": "",
+    "output": "There are no records for 'UnknownEnterpriseAIOSEntity25' in our Enterprise AI OS data set. I prefer to say I don't know rather than guess.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 25,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "Identify UnknownEnterpriseAIOSEntity26.",
+    "input": "",
+    "output": "I couldn't locate any entity called 'UnknownEnterpriseAIOSEntity26' in the Enterprise AI OS index, so I'm unable to provide details.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 26,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "What do you know about UnknownEnterpriseAIOSEntity27?",
+    "input": "",
+    "output": "I don't find any entity named 'UnknownEnterpriseAIOSEntity27' in the indexed Enterprise AI OS data. I cannot reliably answer who this is based on the available information.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 27,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "Who is UnknownEnterpriseAIOSEntity28?",
+    "input": "",
+    "output": "There are no records for 'UnknownEnterpriseAIOSEntity28' in our Enterprise AI OS data set. I prefer to say I don't know rather than guess.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 28,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  }
+]

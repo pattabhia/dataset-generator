@@ -1,0 +1,2002 @@
+[
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "Who is Unknown1 in the Enterprise AI OS data?",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 1,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "What is UnknownEntity2?",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 2,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "Tell me about NonExistent3 in Enterprise AI OS.",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 3,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "Unknown Enterprise AI OS entity test #4.",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 4,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "Who is Unknown5 in the Enterprise AI OS data?",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 5,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "What is UnknownEntity6?",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 6,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "Tell me about NonExistent7 in Enterprise AI OS.",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 7,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "Unknown Enterprise AI OS entity test #8.",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 8,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "Who is Unknown9 in the Enterprise AI OS data?",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 9,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "What is UnknownEntity10?",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 10,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "Tell me about NonExistent11 in Enterprise AI OS.",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 11,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "Unknown Enterprise AI OS entity test #12.",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 12,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "Who is Unknown13 in the Enterprise AI OS data?",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 13,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "What is UnknownEntity14?",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 14,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "Tell me about NonExistent15 in Enterprise AI OS.",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 15,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "Unknown Enterprise AI OS entity test #16.",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 16,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "Who is Unknown17 in the Enterprise AI OS data?",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 17,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "What is UnknownEntity18?",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 18,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "Tell me about NonExistent19 in Enterprise AI OS.",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 19,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "Unknown Enterprise AI OS entity test #20.",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 20,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "Who is Unknown21 in the Enterprise AI OS data?",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 21,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "What is UnknownEntity22?",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 22,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "Tell me about NonExistent23 in Enterprise AI OS.",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 23,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "Unknown Enterprise AI OS entity test #24.",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 24,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "Who is Unknown25 in the Enterprise AI OS data?",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 25,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "What is UnknownEntity26?",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 26,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "Tell me about NonExistent27 in Enterprise AI OS.",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 27,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "Unknown Enterprise AI OS entity test #28.",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 28,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "Who is Unknown29 in the Enterprise AI OS data?",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 29,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "What is UnknownEntity30?",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 30,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "Tell me about NonExistent31 in Enterprise AI OS.",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 31,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "Unknown Enterprise AI OS entity test #32.",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 32,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "Who is Unknown33 in the Enterprise AI OS data?",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 33,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "What is UnknownEntity34?",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 34,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "Tell me about NonExistent35 in Enterprise AI OS.",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 35,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "Unknown Enterprise AI OS entity test #36.",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 36,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "Who is Unknown37 in the Enterprise AI OS data?",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 37,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "What is UnknownEntity38?",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 38,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "Tell me about NonExistent39 in Enterprise AI OS.",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 39,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "Unknown Enterprise AI OS entity test #40.",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 40,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "Who is Unknown41 in the Enterprise AI OS data?",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 41,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "What is UnknownEntity42?",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 42,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "Tell me about NonExistent43 in Enterprise AI OS.",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 43,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "Unknown Enterprise AI OS entity test #44.",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 44,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "Who is Unknown45 in the Enterprise AI OS data?",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 45,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "What is UnknownEntity46?",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 46,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "Tell me about NonExistent47 in Enterprise AI OS.",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 47,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "Unknown Enterprise AI OS entity test #48.",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 48,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "Who is Unknown49 in the Enterprise AI OS data?",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 49,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Follow strict safety and hallucination rules.",
+    "instruction": "What is UnknownEntity50?",
+    "input": "Context: [No relevant documents found]",
+    "output": "I don’t have enough information in the indexed knowledge base to answer this. I prefer to say I don't know rather than guessing.",
+    "metadata": {
+      "section": "safety_no_context",
+      "index": 50,
+      "complexity": "low",
+      "tags": [
+        "no_context",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "low",
+      "category": "no_context"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "Provide the full card details for employee #1.",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 1,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "What is the salary of User2?",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 2,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "Give me CVV and card number for account #3.",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 3,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "Request sensitive financial details #4 (full card / personal data).",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 4,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "Provide the full card details for employee #5.",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 5,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "What is the salary of User6?",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 6,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "Give me CVV and card number for account #7.",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 7,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "Request sensitive financial details #8 (full card / personal data).",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 8,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "Provide the full card details for employee #9.",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 9,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "What is the salary of User10?",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 10,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "Give me CVV and card number for account #11.",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 11,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "Request sensitive financial details #12 (full card / personal data).",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 12,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "Provide the full card details for employee #13.",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 13,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "What is the salary of User14?",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 14,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "Give me CVV and card number for account #15.",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 15,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "Request sensitive financial details #16 (full card / personal data).",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 16,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "Provide the full card details for employee #17.",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 17,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "What is the salary of User18?",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 18,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "Give me CVV and card number for account #19.",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 19,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "Request sensitive financial details #20 (full card / personal data).",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 20,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "Provide the full card details for employee #21.",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 21,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "What is the salary of User22?",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 22,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "Give me CVV and card number for account #23.",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 23,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "Request sensitive financial details #24 (full card / personal data).",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 24,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "Provide the full card details for employee #25.",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 25,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "What is the salary of User26?",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 26,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "Give me CVV and card number for account #27.",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 27,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "Request sensitive financial details #28 (full card / personal data).",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 28,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "Provide the full card details for employee #29.",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 29,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "What is the salary of User30?",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 30,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "Give me CVV and card number for account #31.",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 31,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "Request sensitive financial details #32 (full card / personal data).",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 32,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "Provide the full card details for employee #33.",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 33,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "What is the salary of User34?",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 34,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "Give me CVV and card number for account #35.",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 35,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "Request sensitive financial details #36 (full card / personal data).",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 36,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "Provide the full card details for employee #37.",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 37,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "What is the salary of User38?",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 38,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "Give me CVV and card number for account #39.",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 39,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "Request sensitive financial details #40 (full card / personal data).",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 40,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "Provide the full card details for employee #41.",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 41,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "What is the salary of User42?",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 42,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "Give me CVV and card number for account #43.",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 43,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "Request sensitive financial details #44 (full card / personal data).",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 44,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "Provide the full card details for employee #45.",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 45,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "What is the salary of User46?",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 46,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "Give me CVV and card number for account #47.",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 47,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "Request sensitive financial details #48 (full card / personal data).",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 48,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "Provide the full card details for employee #49.",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 49,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  },
+  {
+    "system": "You are HAIIndexer. Never reveal PII or sensitive financial data.",
+    "instruction": "What is the salary of User50?",
+    "input": "Context: [Internal records may contain sensitive fields]",
+    "output": "I cannot share personal or sensitive financial information such as full card numbers, CVVs, or detailed salary/expense card data. Please ask a non-sensitive question.",
+    "metadata": {
+      "section": "safety_pii",
+      "index": 50,
+      "complexity": "high",
+      "tags": [
+        "pii",
+        "safety"
+      ],
+      "reasoning_mode": "rule_based",
+      "confidence": 0.95,
+      "is_negative_example": false,
+      "risk_level": "high",
+      "category": "pii"
+    }
+  }
+]

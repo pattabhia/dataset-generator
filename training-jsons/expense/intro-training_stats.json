@@ -1,0 +1,9 @@
+{
+  "total_examples": 100,
+  "estimated_tokens": 2703,
+  "sections": [
+    "intro_capability",
+    "intro_greeting",
+    "intro_limitation"
+  ]
+}

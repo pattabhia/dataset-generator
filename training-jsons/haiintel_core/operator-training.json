@@ -1,0 +1,2270 @@
+[
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "What does HAIReach do for CIO in Enterprise AI OS processes?",
+    "input": "Vector DB context:\n- Snippet: description of HAIReach usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "According to the available context, HAIReach sits between unstructured data and structured knowledge to support Enterprise AI OS tasks.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 1,
+      "complexity": "medium",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "kg_high",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "KG",
+      "secondary_operators": [
+        "VDB"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.05,
+        "kg": 0.9,
+        "graph": 0.03,
+        "web": 0.02
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "Describe how Head of Architectures use VSMA in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of VSMA usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "The tool VSMA integrates vector DB and KG to deliver grounded insights for Enterprise AI OS.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 2,
+      "complexity": "high",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "graph_only",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "Graph",
+      "secondary_operators": [
+        "VDB"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.2,
+        "kg": 0.2,
+        "graph": 0.5,
+        "web": 0.1
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "Summarize how HAIIndexer is used by a CTO in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of HAIIndexer usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "From the given context, HAIIndexer serves as a retrieval and reasoning engine for Enterprise AI OS.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 3,
+      "complexity": "medium",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "hybrid_balanced",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "VDB+KG",
+      "secondary_operators": [],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.45,
+        "kg": 0.45,
+        "graph": 0.1,
+        "web": 0.0
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "In two sentences, describe HAIReach's purpose for a CIO in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of HAIReach usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "HAIReach acts as an intelligence layer for Enterprise AI OS, drawing on vector search and knowledge graphs to provide answers.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 4,
+      "complexity": "high",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "low_confidence",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "VDB",
+      "secondary_operators": [
+        "KG",
+        "Graph"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.3,
+        "kg": 0.3,
+        "graph": 0.3,
+        "web": 0.1
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "As a Head of Architecture, explain the role of VSMA in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of VSMA usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "According to the available context, VSMA sits between unstructured data and structured knowledge to support Enterprise AI OS tasks.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 5,
+      "complexity": "medium",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "vdb_high",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "VDB",
+      "secondary_operators": [
+        "KG"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.9,
+        "kg": 0.05,
+        "graph": 0.03,
+        "web": 0.02
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "What does HAIIndexer do for CTO in Enterprise AI OS processes?",
+    "input": "Vector DB context:\n- Snippet: description of HAIIndexer usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "The tool HAIIndexer integrates vector DB and KG to deliver grounded insights for Enterprise AI OS.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 6,
+      "complexity": "medium",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "kg_high",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "KG",
+      "secondary_operators": [
+        "VDB"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.05,
+        "kg": 0.9,
+        "graph": 0.03,
+        "web": 0.02
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "Describe how CIOs use HAIReach in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of HAIReach usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "From the given context, HAIReach serves as a retrieval and reasoning engine for Enterprise AI OS.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 7,
+      "complexity": "high",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "graph_only",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "Graph",
+      "secondary_operators": [
+        "VDB"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.2,
+        "kg": 0.2,
+        "graph": 0.5,
+        "web": 0.1
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "Summarize how VSMA is used by a Head of Architecture in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of VSMA usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "VSMA acts as an intelligence layer for Enterprise AI OS, drawing on vector search and knowledge graphs to provide answers.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 8,
+      "complexity": "medium",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "hybrid_balanced",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "VDB+KG",
+      "secondary_operators": [],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.45,
+        "kg": 0.45,
+        "graph": 0.1,
+        "web": 0.0
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "In two sentences, describe HAIIndexer's purpose for a CTO in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of HAIIndexer usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "According to the available context, HAIIndexer sits between unstructured data and structured knowledge to support Enterprise AI OS tasks.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 9,
+      "complexity": "high",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "low_confidence",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "VDB",
+      "secondary_operators": [
+        "KG",
+        "Graph"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.3,
+        "kg": 0.3,
+        "graph": 0.3,
+        "web": 0.1
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "As a CIO, explain the role of HAIReach in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of HAIReach usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "The tool HAIReach integrates vector DB and KG to deliver grounded insights for Enterprise AI OS.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 10,
+      "complexity": "medium",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "vdb_high",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "VDB",
+      "secondary_operators": [
+        "KG"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.9,
+        "kg": 0.05,
+        "graph": 0.03,
+        "web": 0.02
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "What does VSMA do for Head of Architecture in Enterprise AI OS processes?",
+    "input": "Vector DB context:\n- Snippet: description of VSMA usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "From the given context, VSMA serves as a retrieval and reasoning engine for Enterprise AI OS.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 11,
+      "complexity": "medium",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "kg_high",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "KG",
+      "secondary_operators": [
+        "VDB"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.05,
+        "kg": 0.9,
+        "graph": 0.03,
+        "web": 0.02
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "Describe how CTOs use HAIIndexer in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of HAIIndexer usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "HAIIndexer acts as an intelligence layer for Enterprise AI OS, drawing on vector search and knowledge graphs to provide answers.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 12,
+      "complexity": "high",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "graph_only",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "Graph",
+      "secondary_operators": [
+        "VDB"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.2,
+        "kg": 0.2,
+        "graph": 0.5,
+        "web": 0.1
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "Summarize how HAIReach is used by a CIO in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of HAIReach usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "According to the available context, HAIReach sits between unstructured data and structured knowledge to support Enterprise AI OS tasks.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 13,
+      "complexity": "medium",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "hybrid_balanced",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "VDB+KG",
+      "secondary_operators": [],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.45,
+        "kg": 0.45,
+        "graph": 0.1,
+        "web": 0.0
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "In two sentences, describe VSMA's purpose for a Head of Architecture in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of VSMA usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "The tool VSMA integrates vector DB and KG to deliver grounded insights for Enterprise AI OS.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 14,
+      "complexity": "high",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "low_confidence",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "VDB",
+      "secondary_operators": [
+        "KG",
+        "Graph"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.3,
+        "kg": 0.3,
+        "graph": 0.3,
+        "web": 0.1
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "As a CTO, explain the role of HAIIndexer in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of HAIIndexer usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "From the given context, HAIIndexer serves as a retrieval and reasoning engine for Enterprise AI OS.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 15,
+      "complexity": "medium",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "vdb_high",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "VDB",
+      "secondary_operators": [
+        "KG"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.9,
+        "kg": 0.05,
+        "graph": 0.03,
+        "web": 0.02
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "What does HAIReach do for CIO in Enterprise AI OS processes?",
+    "input": "Vector DB context:\n- Snippet: description of HAIReach usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "HAIReach acts as an intelligence layer for Enterprise AI OS, drawing on vector search and knowledge graphs to provide answers.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 16,
+      "complexity": "medium",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "kg_high",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "KG",
+      "secondary_operators": [
+        "VDB"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.05,
+        "kg": 0.9,
+        "graph": 0.03,
+        "web": 0.02
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "Describe how Head of Architectures use VSMA in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of VSMA usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "According to the available context, VSMA sits between unstructured data and structured knowledge to support Enterprise AI OS tasks.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 17,
+      "complexity": "high",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "graph_only",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "Graph",
+      "secondary_operators": [
+        "VDB"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.2,
+        "kg": 0.2,
+        "graph": 0.5,
+        "web": 0.1
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "Summarize how HAIIndexer is used by a CTO in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of HAIIndexer usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "The tool HAIIndexer integrates vector DB and KG to deliver grounded insights for Enterprise AI OS.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 18,
+      "complexity": "medium",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "hybrid_balanced",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "VDB+KG",
+      "secondary_operators": [],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.45,
+        "kg": 0.45,
+        "graph": 0.1,
+        "web": 0.0
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "In two sentences, describe HAIReach's purpose for a CIO in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of HAIReach usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "From the given context, HAIReach serves as a retrieval and reasoning engine for Enterprise AI OS.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 19,
+      "complexity": "high",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "low_confidence",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "VDB",
+      "secondary_operators": [
+        "KG",
+        "Graph"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.3,
+        "kg": 0.3,
+        "graph": 0.3,
+        "web": 0.1
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "As a Head of Architecture, explain the role of VSMA in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of VSMA usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "VSMA acts as an intelligence layer for Enterprise AI OS, drawing on vector search and knowledge graphs to provide answers.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 20,
+      "complexity": "medium",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "vdb_high",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "VDB",
+      "secondary_operators": [
+        "KG"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.9,
+        "kg": 0.05,
+        "graph": 0.03,
+        "web": 0.02
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "What does HAIIndexer do for CTO in Enterprise AI OS processes?",
+    "input": "Vector DB context:\n- Snippet: description of HAIIndexer usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "According to the available context, HAIIndexer sits between unstructured data and structured knowledge to support Enterprise AI OS tasks.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 21,
+      "complexity": "medium",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "kg_high",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "KG",
+      "secondary_operators": [
+        "VDB"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.05,
+        "kg": 0.9,
+        "graph": 0.03,
+        "web": 0.02
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "Describe how CIOs use HAIReach in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of HAIReach usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "The tool HAIReach integrates vector DB and KG to deliver grounded insights for Enterprise AI OS.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 22,
+      "complexity": "high",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "graph_only",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "Graph",
+      "secondary_operators": [
+        "VDB"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.2,
+        "kg": 0.2,
+        "graph": 0.5,
+        "web": 0.1
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "Summarize how VSMA is used by a Head of Architecture in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of VSMA usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "From the given context, VSMA serves as a retrieval and reasoning engine for Enterprise AI OS.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 23,
+      "complexity": "medium",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "hybrid_balanced",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "VDB+KG",
+      "secondary_operators": [],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.45,
+        "kg": 0.45,
+        "graph": 0.1,
+        "web": 0.0
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "In two sentences, describe HAIIndexer's purpose for a CTO in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of HAIIndexer usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "HAIIndexer acts as an intelligence layer for Enterprise AI OS, drawing on vector search and knowledge graphs to provide answers.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 24,
+      "complexity": "high",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "low_confidence",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "VDB",
+      "secondary_operators": [
+        "KG",
+        "Graph"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.3,
+        "kg": 0.3,
+        "graph": 0.3,
+        "web": 0.1
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "As a CIO, explain the role of HAIReach in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of HAIReach usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "According to the available context, HAIReach sits between unstructured data and structured knowledge to support Enterprise AI OS tasks.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 25,
+      "complexity": "medium",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "vdb_high",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "VDB",
+      "secondary_operators": [
+        "KG"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.9,
+        "kg": 0.05,
+        "graph": 0.03,
+        "web": 0.02
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "What does VSMA do for Head of Architecture in Enterprise AI OS processes?",
+    "input": "Vector DB context:\n- Snippet: description of VSMA usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "The tool VSMA integrates vector DB and KG to deliver grounded insights for Enterprise AI OS.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 26,
+      "complexity": "medium",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "kg_high",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "KG",
+      "secondary_operators": [
+        "VDB"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.05,
+        "kg": 0.9,
+        "graph": 0.03,
+        "web": 0.02
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "Describe how CTOs use HAIIndexer in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of HAIIndexer usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "From the given context, HAIIndexer serves as a retrieval and reasoning engine for Enterprise AI OS.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 27,
+      "complexity": "high",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "graph_only",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "Graph",
+      "secondary_operators": [
+        "VDB"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.2,
+        "kg": 0.2,
+        "graph": 0.5,
+        "web": 0.1
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "Summarize how HAIReach is used by a CIO in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of HAIReach usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "HAIReach acts as an intelligence layer for Enterprise AI OS, drawing on vector search and knowledge graphs to provide answers.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 28,
+      "complexity": "medium",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "hybrid_balanced",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "VDB+KG",
+      "secondary_operators": [],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.45,
+        "kg": 0.45,
+        "graph": 0.1,
+        "web": 0.0
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "In two sentences, describe VSMA's purpose for a Head of Architecture in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of VSMA usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "According to the available context, VSMA sits between unstructured data and structured knowledge to support Enterprise AI OS tasks.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 29,
+      "complexity": "high",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "low_confidence",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "VDB",
+      "secondary_operators": [
+        "KG",
+        "Graph"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.3,
+        "kg": 0.3,
+        "graph": 0.3,
+        "web": 0.1
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "As a CTO, explain the role of HAIIndexer in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of HAIIndexer usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "The tool HAIIndexer integrates vector DB and KG to deliver grounded insights for Enterprise AI OS.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 30,
+      "complexity": "medium",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "vdb_high",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "VDB",
+      "secondary_operators": [
+        "KG"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.9,
+        "kg": 0.05,
+        "graph": 0.03,
+        "web": 0.02
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "What does HAIReach do for CIO in Enterprise AI OS processes?",
+    "input": "Vector DB context:\n- Snippet: description of HAIReach usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "From the given context, HAIReach serves as a retrieval and reasoning engine for Enterprise AI OS.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 31,
+      "complexity": "medium",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "kg_high",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "KG",
+      "secondary_operators": [
+        "VDB"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.05,
+        "kg": 0.9,
+        "graph": 0.03,
+        "web": 0.02
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "Describe how Head of Architectures use VSMA in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of VSMA usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "VSMA acts as an intelligence layer for Enterprise AI OS, drawing on vector search and knowledge graphs to provide answers.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 32,
+      "complexity": "high",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "graph_only",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "Graph",
+      "secondary_operators": [
+        "VDB"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.2,
+        "kg": 0.2,
+        "graph": 0.5,
+        "web": 0.1
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "Summarize how HAIIndexer is used by a CTO in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of HAIIndexer usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "According to the available context, HAIIndexer sits between unstructured data and structured knowledge to support Enterprise AI OS tasks.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 33,
+      "complexity": "medium",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "hybrid_balanced",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "VDB+KG",
+      "secondary_operators": [],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.45,
+        "kg": 0.45,
+        "graph": 0.1,
+        "web": 0.0
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "In two sentences, describe HAIReach's purpose for a CIO in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of HAIReach usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "The tool HAIReach integrates vector DB and KG to deliver grounded insights for Enterprise AI OS.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 34,
+      "complexity": "high",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "low_confidence",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "VDB",
+      "secondary_operators": [
+        "KG",
+        "Graph"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.3,
+        "kg": 0.3,
+        "graph": 0.3,
+        "web": 0.1
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "As a Head of Architecture, explain the role of VSMA in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of VSMA usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "From the given context, VSMA serves as a retrieval and reasoning engine for Enterprise AI OS.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 35,
+      "complexity": "medium",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "vdb_high",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "VDB",
+      "secondary_operators": [
+        "KG"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.9,
+        "kg": 0.05,
+        "graph": 0.03,
+        "web": 0.02
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "What does HAIIndexer do for CTO in Enterprise AI OS processes?",
+    "input": "Vector DB context:\n- Snippet: description of HAIIndexer usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "HAIIndexer acts as an intelligence layer for Enterprise AI OS, drawing on vector search and knowledge graphs to provide answers.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 36,
+      "complexity": "medium",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "kg_high",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "KG",
+      "secondary_operators": [
+        "VDB"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.05,
+        "kg": 0.9,
+        "graph": 0.03,
+        "web": 0.02
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "Describe how CIOs use HAIReach in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of HAIReach usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "According to the available context, HAIReach sits between unstructured data and structured knowledge to support Enterprise AI OS tasks.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 37,
+      "complexity": "high",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "graph_only",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "Graph",
+      "secondary_operators": [
+        "VDB"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.2,
+        "kg": 0.2,
+        "graph": 0.5,
+        "web": 0.1
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "Summarize how VSMA is used by a Head of Architecture in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of VSMA usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "The tool VSMA integrates vector DB and KG to deliver grounded insights for Enterprise AI OS.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 38,
+      "complexity": "medium",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "hybrid_balanced",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "VDB+KG",
+      "secondary_operators": [],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.45,
+        "kg": 0.45,
+        "graph": 0.1,
+        "web": 0.0
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "In two sentences, describe HAIIndexer's purpose for a CTO in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of HAIIndexer usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "From the given context, HAIIndexer serves as a retrieval and reasoning engine for Enterprise AI OS.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 39,
+      "complexity": "high",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "low_confidence",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "VDB",
+      "secondary_operators": [
+        "KG",
+        "Graph"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.3,
+        "kg": 0.3,
+        "graph": 0.3,
+        "web": 0.1
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "As a CIO, explain the role of HAIReach in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of HAIReach usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "HAIReach acts as an intelligence layer for Enterprise AI OS, drawing on vector search and knowledge graphs to provide answers.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 40,
+      "complexity": "medium",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "vdb_high",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "VDB",
+      "secondary_operators": [
+        "KG"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.9,
+        "kg": 0.05,
+        "graph": 0.03,
+        "web": 0.02
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "What does VSMA do for Head of Architecture in Enterprise AI OS processes?",
+    "input": "Vector DB context:\n- Snippet: description of VSMA usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "According to the available context, VSMA sits between unstructured data and structured knowledge to support Enterprise AI OS tasks.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 41,
+      "complexity": "medium",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "kg_high",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "KG",
+      "secondary_operators": [
+        "VDB"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.05,
+        "kg": 0.9,
+        "graph": 0.03,
+        "web": 0.02
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "Describe how CTOs use HAIIndexer in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of HAIIndexer usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "The tool HAIIndexer integrates vector DB and KG to deliver grounded insights for Enterprise AI OS.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 42,
+      "complexity": "high",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "graph_only",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "Graph",
+      "secondary_operators": [
+        "VDB"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.2,
+        "kg": 0.2,
+        "graph": 0.5,
+        "web": 0.1
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "Summarize how HAIReach is used by a CIO in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of HAIReach usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "From the given context, HAIReach serves as a retrieval and reasoning engine for Enterprise AI OS.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 43,
+      "complexity": "medium",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "hybrid_balanced",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "VDB+KG",
+      "secondary_operators": [],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.45,
+        "kg": 0.45,
+        "graph": 0.1,
+        "web": 0.0
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "In two sentences, describe VSMA's purpose for a Head of Architecture in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of VSMA usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "VSMA acts as an intelligence layer for Enterprise AI OS, drawing on vector search and knowledge graphs to provide answers.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 44,
+      "complexity": "high",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "low_confidence",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "VDB",
+      "secondary_operators": [
+        "KG",
+        "Graph"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.3,
+        "kg": 0.3,
+        "graph": 0.3,
+        "web": 0.1
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "As a CTO, explain the role of HAIIndexer in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of HAIIndexer usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "According to the available context, HAIIndexer sits between unstructured data and structured knowledge to support Enterprise AI OS tasks.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 45,
+      "complexity": "medium",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "vdb_high",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "VDB",
+      "secondary_operators": [
+        "KG"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.9,
+        "kg": 0.05,
+        "graph": 0.03,
+        "web": 0.02
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "What does HAIReach do for CIO in Enterprise AI OS processes?",
+    "input": "Vector DB context:\n- Snippet: description of HAIReach usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "The tool HAIReach integrates vector DB and KG to deliver grounded insights for Enterprise AI OS.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 46,
+      "complexity": "medium",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "kg_high",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "KG",
+      "secondary_operators": [
+        "VDB"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.05,
+        "kg": 0.9,
+        "graph": 0.03,
+        "web": 0.02
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "Describe how Head of Architectures use VSMA in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of VSMA usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "From the given context, VSMA serves as a retrieval and reasoning engine for Enterprise AI OS.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 47,
+      "complexity": "high",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "graph_only",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "Graph",
+      "secondary_operators": [
+        "VDB"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.2,
+        "kg": 0.2,
+        "graph": 0.5,
+        "web": 0.1
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "Summarize how HAIIndexer is used by a CTO in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of HAIIndexer usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "HAIIndexer acts as an intelligence layer for Enterprise AI OS, drawing on vector search and knowledge graphs to provide answers.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 48,
+      "complexity": "medium",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "hybrid_balanced",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "VDB+KG",
+      "secondary_operators": [],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.45,
+        "kg": 0.45,
+        "graph": 0.1,
+        "web": 0.0
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "In two sentences, describe HAIReach's purpose for a CIO in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of HAIReach usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "According to the available context, HAIReach sits between unstructured data and structured knowledge to support Enterprise AI OS tasks.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 49,
+      "complexity": "high",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "low_confidence",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "VDB",
+      "secondary_operators": [
+        "KG",
+        "Graph"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.3,
+        "kg": 0.3,
+        "graph": 0.3,
+        "web": 0.1
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "As a Head of Architecture, explain the role of VSMA in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of VSMA usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "The tool VSMA integrates vector DB and KG to deliver grounded insights for Enterprise AI OS.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 50,
+      "complexity": "medium",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "vdb_high",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "VDB",
+      "secondary_operators": [
+        "KG"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.9,
+        "kg": 0.05,
+        "graph": 0.03,
+        "web": 0.02
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "What does HAIIndexer do for CTO in Enterprise AI OS processes?",
+    "input": "Vector DB context:\n- Snippet: description of HAIIndexer usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "From the given context, HAIIndexer serves as a retrieval and reasoning engine for Enterprise AI OS.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 51,
+      "complexity": "medium",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "kg_high",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "KG",
+      "secondary_operators": [
+        "VDB"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.05,
+        "kg": 0.9,
+        "graph": 0.03,
+        "web": 0.02
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "Describe how CIOs use HAIReach in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of HAIReach usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "HAIReach acts as an intelligence layer for Enterprise AI OS, drawing on vector search and knowledge graphs to provide answers.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 52,
+      "complexity": "high",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "graph_only",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "Graph",
+      "secondary_operators": [
+        "VDB"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.2,
+        "kg": 0.2,
+        "graph": 0.5,
+        "web": 0.1
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "Summarize how VSMA is used by a Head of Architecture in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of VSMA usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "According to the available context, VSMA sits between unstructured data and structured knowledge to support Enterprise AI OS tasks.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 53,
+      "complexity": "medium",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "hybrid_balanced",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "VDB+KG",
+      "secondary_operators": [],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.45,
+        "kg": 0.45,
+        "graph": 0.1,
+        "web": 0.0
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "In two sentences, describe HAIIndexer's purpose for a CTO in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of HAIIndexer usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "The tool HAIIndexer integrates vector DB and KG to deliver grounded insights for Enterprise AI OS.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 54,
+      "complexity": "high",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "low_confidence",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "VDB",
+      "secondary_operators": [
+        "KG",
+        "Graph"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.3,
+        "kg": 0.3,
+        "graph": 0.3,
+        "web": 0.1
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "As a CIO, explain the role of HAIReach in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of HAIReach usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "From the given context, HAIReach serves as a retrieval and reasoning engine for Enterprise AI OS.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 55,
+      "complexity": "medium",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "vdb_high",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "VDB",
+      "secondary_operators": [
+        "KG"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.9,
+        "kg": 0.05,
+        "graph": 0.03,
+        "web": 0.02
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "What does VSMA do for Head of Architecture in Enterprise AI OS processes?",
+    "input": "Vector DB context:\n- Snippet: description of VSMA usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "VSMA acts as an intelligence layer for Enterprise AI OS, drawing on vector search and knowledge graphs to provide answers.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 56,
+      "complexity": "medium",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "kg_high",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "KG",
+      "secondary_operators": [
+        "VDB"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.05,
+        "kg": 0.9,
+        "graph": 0.03,
+        "web": 0.02
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "Describe how CTOs use HAIIndexer in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of HAIIndexer usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "According to the available context, HAIIndexer sits between unstructured data and structured knowledge to support Enterprise AI OS tasks.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 57,
+      "complexity": "high",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "graph_only",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "Graph",
+      "secondary_operators": [
+        "VDB"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.2,
+        "kg": 0.2,
+        "graph": 0.5,
+        "web": 0.1
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "Summarize how HAIReach is used by a CIO in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of HAIReach usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "The tool HAIReach integrates vector DB and KG to deliver grounded insights for Enterprise AI OS.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 58,
+      "complexity": "medium",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "hybrid_balanced",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "VDB+KG",
+      "secondary_operators": [],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.45,
+        "kg": 0.45,
+        "graph": 0.1,
+        "web": 0.0
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "In two sentences, describe VSMA's purpose for a Head of Architecture in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of VSMA usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "From the given context, VSMA serves as a retrieval and reasoning engine for Enterprise AI OS.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 59,
+      "complexity": "high",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "low_confidence",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "VDB",
+      "secondary_operators": [
+        "KG",
+        "Graph"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.3,
+        "kg": 0.3,
+        "graph": 0.3,
+        "web": 0.1
+      }
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an AI retrieval router. Decide whether to use VDB, KG, both, or safe fallback.",
+    "instruction": "As a CTO, explain the role of HAIIndexer in Enterprise AI OS.",
+    "input": "Vector DB context:\n- Snippet: description of HAIIndexer usage in Enterprise AI OS\n\nKnowledge Graph context:\n- Entities: [Product, Capability, Integration]\n",
+    "output": "HAIIndexer acts as an intelligence layer for Enterprise AI OS, drawing on vector search and knowledge graphs to provide answers.",
+    "metadata": {
+      "section": "operator_decision_logic",
+      "index": 60,
+      "complexity": "medium",
+      "tags": [
+        "operator_selection",
+        "rag_router",
+        "haiindexer"
+      ],
+      "reasoning_mode": "chain_of_thought",
+      "confidence": 0.8,
+      "is_negative_example": false,
+      "scenario": "vdb_high",
+      "question_wrapper": "Choose the best operators and answer grounded on context."
+    },
+    "operator_decision": {
+      "primary_operator": "VDB",
+      "secondary_operators": [
+        "KG"
+      ],
+      "reasoning_steps": [
+        "Inspect vector search results for rich unstructured context.",
+        "Inspect knowledge graph entities for structured relationships.",
+        "Pick the operator (or combination) that gives the most grounded answer."
+      ],
+      "operator_scores": {
+        "vdb": 0.9,
+        "kg": 0.05,
+        "graph": 0.03,
+        "web": 0.02
+      }
+    }
+  }
+]

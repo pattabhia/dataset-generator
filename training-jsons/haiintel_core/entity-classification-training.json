@@ -1,0 +1,2702 @@
+[
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "What type of entity is Global Person for CTO 001?",
+    "input": "Global Person for CTO 001",
+    "output": "The entity 'Global Person for CTO 001' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 1,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 1
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Can you tell me the category for Global Person for CIO 002?",
+    "input": "Global Person for CIO 002",
+    "output": "The entity 'Global Person for CIO 002' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 2,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 2
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Identify this: Global Person for Head of Architecture 003",
+    "input": "Global Person for Head of Architecture 003",
+    "output": "The entity 'Global Person for Head of Architecture 003' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 3,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 3
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Is Global Project for CTO 004 a vendor or something else?",
+    "input": "Global Project for CTO 004",
+    "output": "The entity 'Global Project for CTO 004' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 4,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.7,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 4
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Classify the entity type for: Global Project for CIO 005",
+    "input": "Global Project for CIO 005",
+    "output": "The entity 'Global Project for CIO 005' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 5,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 5
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "What type of entity is Global Project for Head of Architecture 006?",
+    "input": "Global Project for Head of Architecture 006",
+    "output": "The entity 'Global Project for Head of Architecture 006' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 6,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 6
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Can you tell me the category for Global Skill for CTO 007?",
+    "input": "Global Skill for CTO 007",
+    "output": "The entity 'Global Skill for CTO 007' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 7,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 7
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Identify this: Global Skill for CIO 008",
+    "input": "Global Skill for CIO 008",
+    "output": "The entity 'Global Skill for CIO 008' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 8,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.7,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 8
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Is Global Skill for Head of Architecture 009 a vendor or something else?",
+    "input": "Global Skill for Head of Architecture 009",
+    "output": "The entity 'Global Skill for Head of Architecture 009' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 9,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 9
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Classify the entity type for: Global Organization for CTO 010",
+    "input": "Global Organization for CTO 010",
+    "output": "The entity 'Global Organization for CTO 010' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 10,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 10
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "What type of entity is Global Organization for CIO 011?",
+    "input": "Global Organization for CIO 011",
+    "output": "The entity 'Global Organization for CIO 011' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 11,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 11
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Can you tell me the category for Global Organization for Head of Architecture 012?",
+    "input": "Global Organization for Head of Architecture 012",
+    "output": "The entity 'Global Organization for Head of Architecture 012' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 12,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.7,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 12
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Identify this: Global Product for CTO 013",
+    "input": "Global Product for CTO 013",
+    "output": "The entity 'Global Product for CTO 013' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 13,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 13
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Is Global Product for CIO 014 a vendor or something else?",
+    "input": "Global Product for CIO 014",
+    "output": "The entity 'Global Product for CIO 014' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 14,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 14
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Classify the entity type for: Global Product for Head of Architecture 015",
+    "input": "Global Product for Head of Architecture 015",
+    "output": "The entity 'Global Product for Head of Architecture 015' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 15,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 15
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "What type of entity is Global ArchitecturePattern for CTO 016?",
+    "input": "Global ArchitecturePattern for CTO 016",
+    "output": "The entity 'Global ArchitecturePattern for CTO 016' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 16,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.7,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 16
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Can you tell me the category for Global ArchitecturePattern for CIO 017?",
+    "input": "Global ArchitecturePattern for CIO 017",
+    "output": "The entity 'Global ArchitecturePattern for CIO 017' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 17,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 17
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Identify this: Global ArchitecturePattern for Head of Architecture 018",
+    "input": "Global ArchitecturePattern for Head of Architecture 018",
+    "output": "The entity 'Global ArchitecturePattern for Head of Architecture 018' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 18,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 18
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Is UAE Person for CTO 019 a vendor or something else?",
+    "input": "UAE Person for CTO 019",
+    "output": "The entity 'UAE Person for CTO 019' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 19,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 19
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Classify the entity type for: UAE Person for CIO 020",
+    "input": "UAE Person for CIO 020",
+    "output": "The entity 'UAE Person for CIO 020' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 20,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.7,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 20
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "What type of entity is UAE Person for Head of Architecture 021?",
+    "input": "UAE Person for Head of Architecture 021",
+    "output": "The entity 'UAE Person for Head of Architecture 021' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 21,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 21
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Can you tell me the category for UAE Project for CTO 022?",
+    "input": "UAE Project for CTO 022",
+    "output": "The entity 'UAE Project for CTO 022' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 22,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 22
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Identify this: UAE Project for CIO 023",
+    "input": "UAE Project for CIO 023",
+    "output": "The entity 'UAE Project for CIO 023' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 23,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 23
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Is UAE Project for Head of Architecture 024 a vendor or something else?",
+    "input": "UAE Project for Head of Architecture 024",
+    "output": "The entity 'UAE Project for Head of Architecture 024' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 24,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.7,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 24
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Classify the entity type for: UAE Skill for CTO 025",
+    "input": "UAE Skill for CTO 025",
+    "output": "The entity 'UAE Skill for CTO 025' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 25,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 25
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "What type of entity is UAE Skill for CIO 026?",
+    "input": "UAE Skill for CIO 026",
+    "output": "The entity 'UAE Skill for CIO 026' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 26,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 26
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Can you tell me the category for UAE Skill for Head of Architecture 027?",
+    "input": "UAE Skill for Head of Architecture 027",
+    "output": "The entity 'UAE Skill for Head of Architecture 027' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 27,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 27
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Identify this: UAE Organization for CTO 028",
+    "input": "UAE Organization for CTO 028",
+    "output": "The entity 'UAE Organization for CTO 028' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 28,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.7,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 28
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Is UAE Organization for CIO 029 a vendor or something else?",
+    "input": "UAE Organization for CIO 029",
+    "output": "The entity 'UAE Organization for CIO 029' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 29,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 29
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Classify the entity type for: UAE Organization for Head of Architecture 030",
+    "input": "UAE Organization for Head of Architecture 030",
+    "output": "The entity 'UAE Organization for Head of Architecture 030' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 30,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 30
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "What type of entity is UAE Product for CTO 031?",
+    "input": "UAE Product for CTO 031",
+    "output": "The entity 'UAE Product for CTO 031' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 31,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 31
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Can you tell me the category for UAE Product for CIO 032?",
+    "input": "UAE Product for CIO 032",
+    "output": "The entity 'UAE Product for CIO 032' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 32,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.7,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 32
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Identify this: UAE Product for Head of Architecture 033",
+    "input": "UAE Product for Head of Architecture 033",
+    "output": "The entity 'UAE Product for Head of Architecture 033' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 33,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 33
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Is UAE ArchitecturePattern for CTO 034 a vendor or something else?",
+    "input": "UAE ArchitecturePattern for CTO 034",
+    "output": "The entity 'UAE ArchitecturePattern for CTO 034' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 34,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 34
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Classify the entity type for: UAE ArchitecturePattern for CIO 035",
+    "input": "UAE ArchitecturePattern for CIO 035",
+    "output": "The entity 'UAE ArchitecturePattern for CIO 035' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 35,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 35
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "What type of entity is UAE ArchitecturePattern for Head of Architecture 036?",
+    "input": "UAE ArchitecturePattern for Head of Architecture 036",
+    "output": "The entity 'UAE ArchitecturePattern for Head of Architecture 036' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 36,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.7,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 36
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Can you tell me the category for India Person for CTO 037?",
+    "input": "India Person for CTO 037",
+    "output": "The entity 'India Person for CTO 037' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 37,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 37
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Identify this: India Person for CIO 038",
+    "input": "India Person for CIO 038",
+    "output": "The entity 'India Person for CIO 038' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 38,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 38
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Is India Person for Head of Architecture 039 a vendor or something else?",
+    "input": "India Person for Head of Architecture 039",
+    "output": "The entity 'India Person for Head of Architecture 039' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 39,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 39
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Classify the entity type for: India Project for CTO 040",
+    "input": "India Project for CTO 040",
+    "output": "The entity 'India Project for CTO 040' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 40,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.7,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 40
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "What type of entity is India Project for CIO 041?",
+    "input": "India Project for CIO 041",
+    "output": "The entity 'India Project for CIO 041' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 41,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 41
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Can you tell me the category for India Project for Head of Architecture 042?",
+    "input": "India Project for Head of Architecture 042",
+    "output": "The entity 'India Project for Head of Architecture 042' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 42,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 42
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Identify this: India Skill for CTO 043",
+    "input": "India Skill for CTO 043",
+    "output": "The entity 'India Skill for CTO 043' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 43,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 43
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Is India Skill for CIO 044 a vendor or something else?",
+    "input": "India Skill for CIO 044",
+    "output": "The entity 'India Skill for CIO 044' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 44,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.7,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 44
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Classify the entity type for: India Skill for Head of Architecture 045",
+    "input": "India Skill for Head of Architecture 045",
+    "output": "The entity 'India Skill for Head of Architecture 045' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 45,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 45
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "What type of entity is India Organization for CTO 046?",
+    "input": "India Organization for CTO 046",
+    "output": "The entity 'India Organization for CTO 046' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 46,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 46
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Can you tell me the category for India Organization for CIO 047?",
+    "input": "India Organization for CIO 047",
+    "output": "The entity 'India Organization for CIO 047' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 47,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 47
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Identify this: India Organization for Head of Architecture 048",
+    "input": "India Organization for Head of Architecture 048",
+    "output": "The entity 'India Organization for Head of Architecture 048' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 48,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.7,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 48
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Is India Product for CTO 049 a vendor or something else?",
+    "input": "India Product for CTO 049",
+    "output": "The entity 'India Product for CTO 049' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 49,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 49
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Classify the entity type for: India Product for CIO 050",
+    "input": "India Product for CIO 050",
+    "output": "The entity 'India Product for CIO 050' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 50,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 50
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "What type of entity is India Product for Head of Architecture 051?",
+    "input": "India Product for Head of Architecture 051",
+    "output": "The entity 'India Product for Head of Architecture 051' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 51,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 51
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Can you tell me the category for India ArchitecturePattern for CTO 052?",
+    "input": "India ArchitecturePattern for CTO 052",
+    "output": "The entity 'India ArchitecturePattern for CTO 052' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 52,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.7,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 52
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Identify this: India ArchitecturePattern for CIO 053",
+    "input": "India ArchitecturePattern for CIO 053",
+    "output": "The entity 'India ArchitecturePattern for CIO 053' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 53,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 53
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Is India ArchitecturePattern for Head of Architecture 054 a vendor or something else?",
+    "input": "India ArchitecturePattern for Head of Architecture 054",
+    "output": "The entity 'India ArchitecturePattern for Head of Architecture 054' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 54,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 54
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Classify the entity type for: Europe Person for CTO 055",
+    "input": "Europe Person for CTO 055",
+    "output": "The entity 'Europe Person for CTO 055' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 55,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 55
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "What type of entity is Europe Person for CIO 056?",
+    "input": "Europe Person for CIO 056",
+    "output": "The entity 'Europe Person for CIO 056' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 56,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.7,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 56
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Can you tell me the category for Europe Person for Head of Architecture 057?",
+    "input": "Europe Person for Head of Architecture 057",
+    "output": "The entity 'Europe Person for Head of Architecture 057' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 57,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 57
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Identify this: Europe Project for CTO 058",
+    "input": "Europe Project for CTO 058",
+    "output": "The entity 'Europe Project for CTO 058' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 58,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 58
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Is Europe Project for CIO 059 a vendor or something else?",
+    "input": "Europe Project for CIO 059",
+    "output": "The entity 'Europe Project for CIO 059' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 59,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 59
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Classify the entity type for: Europe Project for Head of Architecture 060",
+    "input": "Europe Project for Head of Architecture 060",
+    "output": "The entity 'Europe Project for Head of Architecture 060' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 60,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.7,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 60
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "What type of entity is Europe Skill for CTO 061?",
+    "input": "Europe Skill for CTO 061",
+    "output": "The entity 'Europe Skill for CTO 061' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 61,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 61
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Can you tell me the category for Europe Skill for CIO 062?",
+    "input": "Europe Skill for CIO 062",
+    "output": "The entity 'Europe Skill for CIO 062' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 62,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 62
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Identify this: Europe Skill for Head of Architecture 063",
+    "input": "Europe Skill for Head of Architecture 063",
+    "output": "The entity 'Europe Skill for Head of Architecture 063' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 63,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 63
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Is Europe Organization for CTO 064 a vendor or something else?",
+    "input": "Europe Organization for CTO 064",
+    "output": "The entity 'Europe Organization for CTO 064' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 64,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.7,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 64
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Classify the entity type for: Europe Organization for CIO 065",
+    "input": "Europe Organization for CIO 065",
+    "output": "The entity 'Europe Organization for CIO 065' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 65,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 65
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "What type of entity is Europe Organization for Head of Architecture 066?",
+    "input": "Europe Organization for Head of Architecture 066",
+    "output": "The entity 'Europe Organization for Head of Architecture 066' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 66,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 66
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Can you tell me the category for Europe Product for CTO 067?",
+    "input": "Europe Product for CTO 067",
+    "output": "The entity 'Europe Product for CTO 067' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 67,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 67
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Identify this: Europe Product for CIO 068",
+    "input": "Europe Product for CIO 068",
+    "output": "The entity 'Europe Product for CIO 068' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 68,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.7,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 68
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Is Europe Product for Head of Architecture 069 a vendor or something else?",
+    "input": "Europe Product for Head of Architecture 069",
+    "output": "The entity 'Europe Product for Head of Architecture 069' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 69,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 69
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Classify the entity type for: Europe ArchitecturePattern for CTO 070",
+    "input": "Europe ArchitecturePattern for CTO 070",
+    "output": "The entity 'Europe ArchitecturePattern for CTO 070' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 70,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 70
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "What type of entity is Europe ArchitecturePattern for CIO 071?",
+    "input": "Europe ArchitecturePattern for CIO 071",
+    "output": "The entity 'Europe ArchitecturePattern for CIO 071' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 71,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 71
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Can you tell me the category for Europe ArchitecturePattern for Head of Architecture 072?",
+    "input": "Europe ArchitecturePattern for Head of Architecture 072",
+    "output": "The entity 'Europe ArchitecturePattern for Head of Architecture 072' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 72,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.7,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 72
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Identify this: Global Person 073",
+    "input": "Global Person 073",
+    "output": "The entity 'Global Person 073' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 73,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 73
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Is Global Person 074 a vendor or something else?",
+    "input": "Global Person 074",
+    "output": "The entity 'Global Person 074' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 74,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 74
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Classify the entity type for: Global Person 075",
+    "input": "Global Person 075",
+    "output": "The entity 'Global Person 075' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 75,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 75
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "What type of entity is Global Person 076?",
+    "input": "Global Person 076",
+    "output": "The entity 'Global Person 076' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 76,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.7,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 76
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Can you tell me the category for Global Person 077?",
+    "input": "Global Person 077",
+    "output": "The entity 'Global Person 077' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 77,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 77
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Identify this: Global Person 078",
+    "input": "Global Person 078",
+    "output": "The entity 'Global Person 078' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 78,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 78
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Is Global Person 079 a vendor or something else?",
+    "input": "Global Person 079",
+    "output": "The entity 'Global Person 079' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 79,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 79
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Classify the entity type for: Global Person 080",
+    "input": "Global Person 080",
+    "output": "The entity 'Global Person 080' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 80,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.7,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 80
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "What type of entity is Global Person 081?",
+    "input": "Global Person 081",
+    "output": "The entity 'Global Person 081' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 81,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 81
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Can you tell me the category for Global Person 082?",
+    "input": "Global Person 082",
+    "output": "The entity 'Global Person 082' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 82,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 82
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Identify this: Global Person 083",
+    "input": "Global Person 083",
+    "output": "The entity 'Global Person 083' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 83,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 83
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Is Global Person 084 a vendor or something else?",
+    "input": "Global Person 084",
+    "output": "The entity 'Global Person 084' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 84,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.7,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 84
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Classify the entity type for: Global Person 085",
+    "input": "Global Person 085",
+    "output": "The entity 'Global Person 085' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 85,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 85
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "What type of entity is Global Person 086?",
+    "input": "Global Person 086",
+    "output": "The entity 'Global Person 086' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 86,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 86
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Can you tell me the category for Global Person 087?",
+    "input": "Global Person 087",
+    "output": "The entity 'Global Person 087' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 87,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 87
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Identify this: Global Person 088",
+    "input": "Global Person 088",
+    "output": "The entity 'Global Person 088' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 88,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.7,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 88
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Is Global Person 089 a vendor or something else?",
+    "input": "Global Person 089",
+    "output": "The entity 'Global Person 089' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 89,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 89
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Classify the entity type for: Global Person 090",
+    "input": "Global Person 090",
+    "output": "The entity 'Global Person 090' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 90,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 90
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "What type of entity is Global Person 091?",
+    "input": "Global Person 091",
+    "output": "The entity 'Global Person 091' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 91,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 91
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Can you tell me the category for Global Person 092?",
+    "input": "Global Person 092",
+    "output": "The entity 'Global Person 092' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 92,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.7,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 92
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Identify this: Global Person 093",
+    "input": "Global Person 093",
+    "output": "The entity 'Global Person 093' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 93,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 93
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Is Global Person 094 a vendor or something else?",
+    "input": "Global Person 094",
+    "output": "The entity 'Global Person 094' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 94,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 94
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Classify the entity type for: Global Person 095",
+    "input": "Global Person 095",
+    "output": "The entity 'Global Person 095' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 95,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 95
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "What type of entity is Global Person 096?",
+    "input": "Global Person 096",
+    "output": "The entity 'Global Person 096' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 96,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.7,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 96
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Can you tell me the category for Global Person 097?",
+    "input": "Global Person 097",
+    "output": "The entity 'Global Person 097' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 97,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 97
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Identify this: Global Person 098",
+    "input": "Global Person 098",
+    "output": "The entity 'Global Person 098' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 98,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 98
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Is Global Person 099 a vendor or something else?",
+    "input": "Global Person 099",
+    "output": "The entity 'Global Person 099' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 99,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.9,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 99
+    }
+  },
+  {
+    "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
+    "instruction": "Classify the entity type for: Global Person 100",
+    "input": "Global Person 100",
+    "output": "The entity 'Global Person 100' belongs to the Enterprise AI OS domain and should be mapped to one or more of the configured entity types.",
+    "metadata": {
+      "section": "entity_classification",
+      "index": 100,
+      "complexity": "medium",
+      "tags": [
+        "classification",
+        "entity"
+      ],
+      "reasoning_mode": "classification",
+      "confidence": 0.7,
+      "is_negative_example": false,
+      "possible_labels": [
+        "Person",
+        "Project",
+        "Skill",
+        "Organization",
+        "Product",
+        "ArchitecturePattern"
+      ],
+      "variant_id": 100
+    }
+  }
+]

@@ -8,4 +8,3 @@ data/
 logs/
 *.log
 model_checkpoints/
-training-jsons/ 

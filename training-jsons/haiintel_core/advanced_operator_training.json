@@ -1,0 +1,431 @@
+[
+  {
+    "system": "You are HAIIndexer, an advanced retrieval router. Decide which operators (VDB, KG, Graph, Web) to use, compute scores, risk, and fallback, and decide whether to suppress chain-of-thought in the final user-facing answer.",
+    "instruction": "Decide routing for a complex Enterprise AI OS question about HAIReach. Return operator decisions, scores, risk, fallback, and CoT suppression flag.",
+    "input": "Signals:\n- VDB: relevant snippets with medium confidence\n- KG: strong structural relationships but partial coverage\n- Graph: some entity paths\n- Web: optional external reference\n",
+    "output": {
+      "primary_operator": "KG",
+      "secondary_operators": [
+        "VDB"
+      ],
+      "operator_scores": {
+        "vdb": 0.2,
+        "kg": 0.7,
+        "graph": 0.1,
+        "web": 0.3
+      },
+      "risk_score": 0.6,
+      "fallback_operator": "WEB_SEARCH",
+      "suppress_chain_of_thought": false,
+      "explanation": "Select operators that maximize groundedness while minimizing hallucination risk and cost. Use fallback when risk exceeds acceptable thresholds."
+    },
+    "metadata": {
+      "section": "advanced_operator_logic",
+      "index": 1,
+      "complexity": "high",
+      "tags": [
+        "operator_selection",
+        "advanced",
+        "risk",
+        "fallback"
+      ],
+      "reasoning_mode": "router_decision",
+      "confidence": 0.75,
+      "is_negative_example": false,
+      "scenario": "kg_high_risk_fallback_web"
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an advanced retrieval router. Decide which operators (VDB, KG, Graph, Web) to use, compute scores, risk, and fallback, and decide whether to suppress chain-of-thought in the final user-facing answer.",
+    "instruction": "Decide routing for a complex Enterprise AI OS question about VSMA. Return operator decisions, scores, risk, fallback, and CoT suppression flag.",
+    "input": "Signals:\n- VDB: relevant snippets with medium confidence\n- KG: strong structural relationships but partial coverage\n- Graph: some entity paths\n- Web: optional external reference\n",
+    "output": {
+      "primary_operator": "VDB",
+      "secondary_operators": [
+        "KG"
+      ],
+      "operator_scores": {
+        "vdb": 0.45,
+        "kg": 0.4,
+        "graph": 0.15,
+        "web": 0.0
+      },
+      "risk_score": 0.4,
+      "fallback_operator": "KG",
+      "suppress_chain_of_thought": true,
+      "explanation": "Select operators that maximize groundedness while minimizing hallucination risk and cost. Use fallback when risk exceeds acceptable thresholds."
+    },
+    "metadata": {
+      "section": "advanced_operator_logic",
+      "index": 2,
+      "complexity": "high",
+      "tags": [
+        "operator_selection",
+        "advanced",
+        "risk",
+        "fallback"
+      ],
+      "reasoning_mode": "router_decision",
+      "confidence": 0.75,
+      "is_negative_example": false,
+      "scenario": "vdb_low_confidence_fallback_kg"
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an advanced retrieval router. Decide which operators (VDB, KG, Graph, Web) to use, compute scores, risk, and fallback, and decide whether to suppress chain-of-thought in the final user-facing answer.",
+    "instruction": "Decide routing for a complex Enterprise AI OS question about HAIIndexer. Return operator decisions, scores, risk, fallback, and CoT suppression flag.",
+    "input": "Signals:\n- VDB: relevant snippets with medium confidence\n- KG: strong structural relationships but partial coverage\n- Graph: some entity paths\n- Web: optional external reference\n",
+    "output": {
+      "primary_operator": "Graph",
+      "secondary_operators": [
+        "KG",
+        "VDB"
+      ],
+      "operator_scores": {
+        "vdb": 0.15,
+        "kg": 0.25,
+        "graph": 0.5,
+        "web": 0.1
+      },
+      "risk_score": 0.7,
+      "fallback_operator": "WEB_SEARCH",
+      "suppress_chain_of_thought": false,
+      "explanation": "Select operators that maximize groundedness while minimizing hallucination risk and cost. Use fallback when risk exceeds acceptable thresholds."
+    },
+    "metadata": {
+      "section": "advanced_operator_logic",
+      "index": 3,
+      "complexity": "high",
+      "tags": [
+        "operator_selection",
+        "advanced",
+        "risk",
+        "fallback"
+      ],
+      "reasoning_mode": "router_decision",
+      "confidence": 0.75,
+      "is_negative_example": false,
+      "scenario": "graph_high_risk"
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an advanced retrieval router. Decide which operators (VDB, KG, Graph, Web) to use, compute scores, risk, and fallback, and decide whether to suppress chain-of-thought in the final user-facing answer.",
+    "instruction": "Decide routing for a complex Enterprise AI OS question about HAIReach. Return operator decisions, scores, risk, fallback, and CoT suppression flag.",
+    "input": "Signals:\n- VDB: relevant snippets with medium confidence\n- KG: strong structural relationships but partial coverage\n- Graph: some entity paths\n- Web: optional external reference\n",
+    "output": {
+      "primary_operator": "VDB+KG",
+      "secondary_operators": [],
+      "operator_scores": {
+        "vdb": 0.55,
+        "kg": 0.4,
+        "graph": 0.05,
+        "web": 0.0
+      },
+      "risk_score": 0.1,
+      "fallback_operator": null,
+      "suppress_chain_of_thought": true,
+      "explanation": "Select operators that maximize groundedness while minimizing hallucination risk and cost. Use fallback when risk exceeds acceptable thresholds."
+    },
+    "metadata": {
+      "section": "advanced_operator_logic",
+      "index": 4,
+      "complexity": "high",
+      "tags": [
+        "operator_selection",
+        "advanced",
+        "risk",
+        "fallback"
+      ],
+      "reasoning_mode": "router_decision",
+      "confidence": 0.75,
+      "is_negative_example": false,
+      "scenario": "hybrid_low_risk"
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an advanced retrieval router. Decide which operators (VDB, KG, Graph, Web) to use, compute scores, risk, and fallback, and decide whether to suppress chain-of-thought in the final user-facing answer.",
+    "instruction": "Decide routing for a complex Enterprise AI OS question about VSMA. Return operator decisions, scores, risk, fallback, and CoT suppression flag.",
+    "input": "Signals:\n- VDB: relevant snippets with medium confidence\n- KG: strong structural relationships but partial coverage\n- Graph: some entity paths\n- Web: optional external reference\n",
+    "output": {
+      "primary_operator": "KG",
+      "secondary_operators": [
+        "VDB"
+      ],
+      "operator_scores": {
+        "vdb": 0.2,
+        "kg": 0.7,
+        "graph": 0.1,
+        "web": 0.3
+      },
+      "risk_score": 0.6,
+      "fallback_operator": "WEB_SEARCH",
+      "suppress_chain_of_thought": false,
+      "explanation": "Select operators that maximize groundedness while minimizing hallucination risk and cost. Use fallback when risk exceeds acceptable thresholds."
+    },
+    "metadata": {
+      "section": "advanced_operator_logic",
+      "index": 5,
+      "complexity": "high",
+      "tags": [
+        "operator_selection",
+        "advanced",
+        "risk",
+        "fallback"
+      ],
+      "reasoning_mode": "router_decision",
+      "confidence": 0.75,
+      "is_negative_example": false,
+      "scenario": "kg_high_risk_fallback_web"
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an advanced retrieval router. Decide which operators (VDB, KG, Graph, Web) to use, compute scores, risk, and fallback, and decide whether to suppress chain-of-thought in the final user-facing answer.",
+    "instruction": "Decide routing for a complex Enterprise AI OS question about HAIIndexer. Return operator decisions, scores, risk, fallback, and CoT suppression flag.",
+    "input": "Signals:\n- VDB: relevant snippets with medium confidence\n- KG: strong structural relationships but partial coverage\n- Graph: some entity paths\n- Web: optional external reference\n",
+    "output": {
+      "primary_operator": "VDB",
+      "secondary_operators": [
+        "KG"
+      ],
+      "operator_scores": {
+        "vdb": 0.45,
+        "kg": 0.4,
+        "graph": 0.15,
+        "web": 0.0
+      },
+      "risk_score": 0.4,
+      "fallback_operator": "KG",
+      "suppress_chain_of_thought": true,
+      "explanation": "Select operators that maximize groundedness while minimizing hallucination risk and cost. Use fallback when risk exceeds acceptable thresholds."
+    },
+    "metadata": {
+      "section": "advanced_operator_logic",
+      "index": 6,
+      "complexity": "high",
+      "tags": [
+        "operator_selection",
+        "advanced",
+        "risk",
+        "fallback"
+      ],
+      "reasoning_mode": "router_decision",
+      "confidence": 0.75,
+      "is_negative_example": false,
+      "scenario": "vdb_low_confidence_fallback_kg"
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an advanced retrieval router. Decide which operators (VDB, KG, Graph, Web) to use, compute scores, risk, and fallback, and decide whether to suppress chain-of-thought in the final user-facing answer.",
+    "instruction": "Decide routing for a complex Enterprise AI OS question about HAIReach. Return operator decisions, scores, risk, fallback, and CoT suppression flag.",
+    "input": "Signals:\n- VDB: relevant snippets with medium confidence\n- KG: strong structural relationships but partial coverage\n- Graph: some entity paths\n- Web: optional external reference\n",
+    "output": {
+      "primary_operator": "Graph",
+      "secondary_operators": [
+        "KG",
+        "VDB"
+      ],
+      "operator_scores": {
+        "vdb": 0.15,
+        "kg": 0.25,
+        "graph": 0.5,
+        "web": 0.1
+      },
+      "risk_score": 0.7,
+      "fallback_operator": "WEB_SEARCH",
+      "suppress_chain_of_thought": false,
+      "explanation": "Select operators that maximize groundedness while minimizing hallucination risk and cost. Use fallback when risk exceeds acceptable thresholds."
+    },
+    "metadata": {
+      "section": "advanced_operator_logic",
+      "index": 7,
+      "complexity": "high",
+      "tags": [
+        "operator_selection",
+        "advanced",
+        "risk",
+        "fallback"
+      ],
+      "reasoning_mode": "router_decision",
+      "confidence": 0.75,
+      "is_negative_example": false,
+      "scenario": "graph_high_risk"
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an advanced retrieval router. Decide which operators (VDB, KG, Graph, Web) to use, compute scores, risk, and fallback, and decide whether to suppress chain-of-thought in the final user-facing answer.",
+    "instruction": "Decide routing for a complex Enterprise AI OS question about VSMA. Return operator decisions, scores, risk, fallback, and CoT suppression flag.",
+    "input": "Signals:\n- VDB: relevant snippets with medium confidence\n- KG: strong structural relationships but partial coverage\n- Graph: some entity paths\n- Web: optional external reference\n",
+    "output": {
+      "primary_operator": "VDB+KG",
+      "secondary_operators": [],
+      "operator_scores": {
+        "vdb": 0.55,
+        "kg": 0.4,
+        "graph": 0.05,
+        "web": 0.0
+      },
+      "risk_score": 0.1,
+      "fallback_operator": null,
+      "suppress_chain_of_thought": true,
+      "explanation": "Select operators that maximize groundedness while minimizing hallucination risk and cost. Use fallback when risk exceeds acceptable thresholds."
+    },
+    "metadata": {
+      "section": "advanced_operator_logic",
+      "index": 8,
+      "complexity": "high",
+      "tags": [
+        "operator_selection",
+        "advanced",
+        "risk",
+        "fallback"
+      ],
+      "reasoning_mode": "router_decision",
+      "confidence": 0.75,
+      "is_negative_example": false,
+      "scenario": "hybrid_low_risk"
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an advanced retrieval router. Decide which operators (VDB, KG, Graph, Web) to use, compute scores, risk, and fallback, and decide whether to suppress chain-of-thought in the final user-facing answer.",
+    "instruction": "Decide routing for a complex Enterprise AI OS question about HAIIndexer. Return operator decisions, scores, risk, fallback, and CoT suppression flag.",
+    "input": "Signals:\n- VDB: relevant snippets with medium confidence\n- KG: strong structural relationships but partial coverage\n- Graph: some entity paths\n- Web: optional external reference\n",
+    "output": {
+      "primary_operator": "KG",
+      "secondary_operators": [
+        "VDB"
+      ],
+      "operator_scores": {
+        "vdb": 0.2,
+        "kg": 0.7,
+        "graph": 0.1,
+        "web": 0.3
+      },
+      "risk_score": 0.6,
+      "fallback_operator": "WEB_SEARCH",
+      "suppress_chain_of_thought": false,
+      "explanation": "Select operators that maximize groundedness while minimizing hallucination risk and cost. Use fallback when risk exceeds acceptable thresholds."
+    },
+    "metadata": {
+      "section": "advanced_operator_logic",
+      "index": 9,
+      "complexity": "high",
+      "tags": [
+        "operator_selection",
+        "advanced",
+        "risk",
+        "fallback"
+      ],
+      "reasoning_mode": "router_decision",
+      "confidence": 0.75,
+      "is_negative_example": false,
+      "scenario": "kg_high_risk_fallback_web"
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an advanced retrieval router. Decide which operators (VDB, KG, Graph, Web) to use, compute scores, risk, and fallback, and decide whether to suppress chain-of-thought in the final user-facing answer.",
+    "instruction": "Decide routing for a complex Enterprise AI OS question about HAIReach. Return operator decisions, scores, risk, fallback, and CoT suppression flag.",
+    "input": "Signals:\n- VDB: relevant snippets with medium confidence\n- KG: strong structural relationships but partial coverage\n- Graph: some entity paths\n- Web: optional external reference\n",
+    "output": {
+      "primary_operator": "VDB",
+      "secondary_operators": [
+        "KG"
+      ],
+      "operator_scores": {
+        "vdb": 0.45,
+        "kg": 0.4,
+        "graph": 0.15,
+        "web": 0.0
+      },
+      "risk_score": 0.4,
+      "fallback_operator": "KG",
+      "suppress_chain_of_thought": true,
+      "explanation": "Select operators that maximize groundedness while minimizing hallucination risk and cost. Use fallback when risk exceeds acceptable thresholds."
+    },
+    "metadata": {
+      "section": "advanced_operator_logic",
+      "index": 10,
+      "complexity": "high",
+      "tags": [
+        "operator_selection",
+        "advanced",
+        "risk",
+        "fallback"
+      ],
+      "reasoning_mode": "router_decision",
+      "confidence": 0.75,
+      "is_negative_example": false,
+      "scenario": "vdb_low_confidence_fallback_kg"
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an advanced retrieval router. Decide which operators (VDB, KG, Graph, Web) to use, compute scores, risk, and fallback, and decide whether to suppress chain-of-thought in the final user-facing answer.",
+    "instruction": "Decide routing for a complex Enterprise AI OS question about VSMA. Return operator decisions, scores, risk, fallback, and CoT suppression flag.",
+    "input": "Signals:\n- VDB: relevant snippets with medium confidence\n- KG: strong structural relationships but partial coverage\n- Graph: some entity paths\n- Web: optional external reference\n",
+    "output": {
+      "primary_operator": "Graph",
+      "secondary_operators": [
+        "KG",
+        "VDB"
+      ],
+      "operator_scores": {
+        "vdb": 0.15,
+        "kg": 0.25,
+        "graph": 0.5,
+        "web": 0.1
+      },
+      "risk_score": 0.7,
+      "fallback_operator": "WEB_SEARCH",
+      "suppress_chain_of_thought": false,
+      "explanation": "Select operators that maximize groundedness while minimizing hallucination risk and cost. Use fallback when risk exceeds acceptable thresholds."
+    },
+    "metadata": {
+      "section": "advanced_operator_logic",
+      "index": 11,
+      "complexity": "high",
+      "tags": [
+        "operator_selection",
+        "advanced",
+        "risk",
+        "fallback"
+      ],
+      "reasoning_mode": "router_decision",
+      "confidence": 0.75,
+      "is_negative_example": false,
+      "scenario": "graph_high_risk"
+    }
+  },
+  {
+    "system": "You are HAIIndexer, an advanced retrieval router. Decide which operators (VDB, KG, Graph, Web) to use, compute scores, risk, and fallback, and decide whether to suppress chain-of-thought in the final user-facing answer.",
+    "instruction": "Decide routing for a complex Enterprise AI OS question about HAIIndexer. Return operator decisions, scores, risk, fallback, and CoT suppression flag.",
+    "input": "Signals:\n- VDB: relevant snippets with medium confidence\n- KG: strong structural relationships but partial coverage\n- Graph: some entity paths\n- Web: optional external reference\n",
+    "output": {
+      "primary_operator": "VDB+KG",
+      "secondary_operators": [],
+      "operator_scores": {
+        "vdb": 0.55,
+        "kg": 0.4,
+        "graph": 0.05,
+        "web": 0.0
+      },
+      "risk_score": 0.1,
+      "fallback_operator": null,
+      "suppress_chain_of_thought": true,
+      "explanation": "Select operators that maximize groundedness while minimizing hallucination risk and cost. Use fallback when risk exceeds acceptable thresholds."
+    },
+    "metadata": {
+      "section": "advanced_operator_logic",
+      "index": 12,
+      "complexity": "high",
+      "tags": [
+        "operator_selection",
+        "advanced",
+        "risk",
+        "fallback"
+      ],
+      "reasoning_mode": "router_decision",
+      "confidence": 0.75,
+      "is_negative_example": false,
+      "scenario": "hybrid_low_risk"
+    }
+  }
+]

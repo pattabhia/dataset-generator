@@ -1,0 +1,646 @@
+[
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "Can you tell me who UnknownExpenseManagementEntity1 is?",
+    "input": "",
+    "output": "There are no records for 'UnknownExpenseManagementEntity1' in our Expense Management data set. I prefer to say I don't know rather than guess.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 1,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "Identify UnknownExpenseManagementEntity2.",
+    "input": "",
+    "output": "I couldn't locate any entity called 'UnknownExpenseManagementEntity2' in the Expense Management index, so I'm unable to provide details.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 2,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "What do you know about UnknownExpenseManagementEntity3?",
+    "input": "",
+    "output": "I don't find any entity named 'UnknownExpenseManagementEntity3' in the indexed Expense Management data. I cannot reliably answer who this is based on the available information.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 3,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "Who is UnknownExpenseManagementEntity4?",
+    "input": "",
+    "output": "There are no records for 'UnknownExpenseManagementEntity4' in our Expense Management data set. I prefer to say I don't know rather than guess.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 4,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "Can you tell me who UnknownExpenseManagementEntity5 is?",
+    "input": "",
+    "output": "I couldn't locate any entity called 'UnknownExpenseManagementEntity5' in the Expense Management index, so I'm unable to provide details.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 5,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "Identify UnknownExpenseManagementEntity6.",
+    "input": "",
+    "output": "I don't find any entity named 'UnknownExpenseManagementEntity6' in the indexed Expense Management data. I cannot reliably answer who this is based on the available information.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 6,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "What do you know about UnknownExpenseManagementEntity7?",
+    "input": "",
+    "output": "There are no records for 'UnknownExpenseManagementEntity7' in our Expense Management data set. I prefer to say I don't know rather than guess.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 7,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "Who is UnknownExpenseManagementEntity8?",
+    "input": "",
+    "output": "I couldn't locate any entity called 'UnknownExpenseManagementEntity8' in the Expense Management index, so I'm unable to provide details.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 8,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "Can you tell me who UnknownExpenseManagementEntity9 is?",
+    "input": "",
+    "output": "I don't find any entity named 'UnknownExpenseManagementEntity9' in the indexed Expense Management data. I cannot reliably answer who this is based on the available information.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 9,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "Identify UnknownExpenseManagementEntity10.",
+    "input": "",
+    "output": "There are no records for 'UnknownExpenseManagementEntity10' in our Expense Management data set. I prefer to say I don't know rather than guess.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 10,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "What do you know about UnknownExpenseManagementEntity11?",
+    "input": "",
+    "output": "I couldn't locate any entity called 'UnknownExpenseManagementEntity11' in the Expense Management index, so I'm unable to provide details.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 11,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "Who is UnknownExpenseManagementEntity12?",
+    "input": "",
+    "output": "I don't find any entity named 'UnknownExpenseManagementEntity12' in the indexed Expense Management data. I cannot reliably answer who this is based on the available information.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 12,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "Can you tell me who UnknownExpenseManagementEntity13 is?",
+    "input": "",
+    "output": "There are no records for 'UnknownExpenseManagementEntity13' in our Expense Management data set. I prefer to say I don't know rather than guess.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 13,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "Identify UnknownExpenseManagementEntity14.",
+    "input": "",
+    "output": "I couldn't locate any entity called 'UnknownExpenseManagementEntity14' in the Expense Management index, so I'm unable to provide details.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 14,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "What do you know about UnknownExpenseManagementEntity15?",
+    "input": "",
+    "output": "I don't find any entity named 'UnknownExpenseManagementEntity15' in the indexed Expense Management data. I cannot reliably answer who this is based on the available information.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 15,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "Who is UnknownExpenseManagementEntity16?",
+    "input": "",
+    "output": "There are no records for 'UnknownExpenseManagementEntity16' in our Expense Management data set. I prefer to say I don't know rather than guess.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 16,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "Can you tell me who UnknownExpenseManagementEntity17 is?",
+    "input": "",
+    "output": "I couldn't locate any entity called 'UnknownExpenseManagementEntity17' in the Expense Management index, so I'm unable to provide details.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 17,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "Identify UnknownExpenseManagementEntity18.",
+    "input": "",
+    "output": "I don't find any entity named 'UnknownExpenseManagementEntity18' in the indexed Expense Management data. I cannot reliably answer who this is based on the available information.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 18,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "What do you know about UnknownExpenseManagementEntity19?",
+    "input": "",
+    "output": "There are no records for 'UnknownExpenseManagementEntity19' in our Expense Management data set. I prefer to say I don't know rather than guess.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 19,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "Who is UnknownExpenseManagementEntity20?",
+    "input": "",
+    "output": "I couldn't locate any entity called 'UnknownExpenseManagementEntity20' in the Expense Management index, so I'm unable to provide details.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 20,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "Can you tell me who UnknownExpenseManagementEntity21 is?",
+    "input": "",
+    "output": "I don't find any entity named 'UnknownExpenseManagementEntity21' in the indexed Expense Management data. I cannot reliably answer who this is based on the available information.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 21,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "Identify UnknownExpenseManagementEntity22.",
+    "input": "",
+    "output": "There are no records for 'UnknownExpenseManagementEntity22' in our Expense Management data set. I prefer to say I don't know rather than guess.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 22,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "What do you know about UnknownExpenseManagementEntity23?",
+    "input": "",
+    "output": "I couldn't locate any entity called 'UnknownExpenseManagementEntity23' in the Expense Management index, so I'm unable to provide details.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 23,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "Who is UnknownExpenseManagementEntity24?",
+    "input": "",
+    "output": "I don't find any entity named 'UnknownExpenseManagementEntity24' in the indexed Expense Management data. I cannot reliably answer who this is based on the available information.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 24,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "Can you tell me who UnknownExpenseManagementEntity25 is?",
+    "input": "",
+    "output": "There are no records for 'UnknownExpenseManagementEntity25' in our Expense Management data set. I prefer to say I don't know rather than guess.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 25,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "Identify UnknownExpenseManagementEntity26.",
+    "input": "",
+    "output": "I couldn't locate any entity called 'UnknownExpenseManagementEntity26' in the Expense Management index, so I'm unable to provide details.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 26,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "What do you know about UnknownExpenseManagementEntity27?",
+    "input": "",
+    "output": "I don't find any entity named 'UnknownExpenseManagementEntity27' in the indexed Expense Management data. I cannot reliably answer who this is based on the available information.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 27,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  },
+  {
+    "system": "You are HAIIndexer, focused on HONEST entity classification. If you do not have enough information, do NOT guess.",
+    "instruction": "Who is UnknownExpenseManagementEntity28?",
+    "input": "",
+    "output": "There are no records for 'UnknownExpenseManagementEntity28' in our Expense Management data set. I prefer to say I don't know rather than guess.",
+    "metadata": {
+      "section": "hard_negatives",
+      "index": 28,
+      "complexity": "low",
+      "tags": [
+        "classification",
+        "hard_negative",
+        "unknown_entity"
+      ],
+      "reasoning_mode": "unknown_entity",
+      "confidence": 0.05,
+      "is_negative_example": true,
+      "entity_type": "UNKNOWN",
+      "multi_label": [
+        "UNKNOWN"
+      ]
+    }
+  }
+]
