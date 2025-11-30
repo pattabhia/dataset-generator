@@ -8,3 +8,5 @@ data/
 logs/
 *.log
 model_checkpoints/
+training_output/
+training-*
