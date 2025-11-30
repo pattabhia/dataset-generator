@@ -114,13 +114,13 @@ class IntroTrainingBuilder(SectionBuilder):
             })
 
         # Generate limitations until we reach n total examples
+        limitation_idx = 0
         while len(examples) < n:
-            idx = len(examples) - (2 * (n // 3)) + 1  # starting index for limitations
-            template = limitation_templates[idx % len(limitation_templates)]
+            template = limitation_templates[limitation_idx % len(limitation_templates)]
             output = template.format(domain=cfg.domain_name, company=cfg.company_name)
             meta = make_metadata(
                 section="intro_limitation",
-                index=idx,
+                index=limitation_idx + 1,
                 complexity="medium",
                 tags=["limitation"],
                 reasoning_mode="template",
@@ -131,7 +131,7 @@ class IntroTrainingBuilder(SectionBuilder):
                     f"You are {cfg.agent_name}. Always be honest about missing context or "
                     "limitations."
                 ),
-                "instruction": f"Explain your limitations and when you say 'I don't know' (sample {idx})",
+                "instruction": f"Explain your limitations and when you say 'I don't know' (sample {limitation_idx + 1})",
                 "input": "",
                 "output": output,
                 "category": "limitation",
@@ -141,6 +141,7 @@ class IntroTrainingBuilder(SectionBuilder):
                 "notes": "",
                 "metadata": meta,
             })
+            limitation_idx += 1
 
         return examples[:n]
   

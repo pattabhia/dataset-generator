@@ -8,6 +8,29 @@ from .base import SectionBuilder
 from src.utils import make_metadata
 
 
+def validate_operator_scores(scores: Dict[str, float], tolerance: float = 0.01) -> None:
+    """Validate that operator scores sum to approximately 1.0.
+
+    Parameters
+    ----------
+    scores : Dict[str, float]
+        Dictionary mapping operator names to their confidence scores.
+    tolerance : float, optional
+        Acceptable deviation from 1.0, by default 0.01.
+
+    Raises
+    ------
+    ValueError
+        If the sum of scores deviates from 1.0 by more than tolerance.
+    """
+    total = sum(scores.values())
+    if abs(total - 1.0) > tolerance:
+        raise ValueError(
+            f"Operator scores must sum to ~1.0 (tolerance: {tolerance}). "
+            f"Got {total:.4f} from scores: {scores}"
+        )
+
+
 class OperatorTrainingBuilder(SectionBuilder):
     """Section 3: Operator selection (Vector DB / KG / Hybrid)."""
 
@@ -24,6 +47,7 @@ class OperatorTrainingBuilder(SectionBuilder):
         # decision patterns. Each tuple contains a key, primary operator, list of
         # secondary operators and a score distribution. Low confidence and
         # fallback scenarios are included implicitly by advanced_operator_logic.py.
+        # Note: All operator scores must sum to approximately 1.0.
         scenarios = [
             ("vdb_high", "VDB", ["KG"], {"vdb": 0.9, "kg": 0.05, "graph": 0.03, "web": 0.02}),
             ("kg_high", "KG", ["VDB"], {"vdb": 0.05, "kg": 0.9, "graph": 0.03, "web": 0.02}),
@@ -31,6 +55,10 @@ class OperatorTrainingBuilder(SectionBuilder):
             ("hybrid_balanced", "VDB+KG", [], {"vdb": 0.45, "kg": 0.45, "graph": 0.1, "web": 0.0}),
             ("low_confidence", "VDB", ["KG", "Graph"], {"vdb": 0.3, "kg": 0.3, "graph": 0.3, "web": 0.1}),
         ]
+
+        # Validate all scenario scores sum to ~1.0
+        for scenario_key, _, _, scores in scenarios:
+            validate_operator_scores(scores)
 
         # Instruction templates to reduce repetition
         instruction_templates = [
@@ -48,7 +76,7 @@ class OperatorTrainingBuilder(SectionBuilder):
             "From the given context, {product} serves as a retrieval and reasoning engine for {domain}.",
         ]
 
-        for idx in range(1, n + 1):
+        for idx in range(n):
             scenario_key, primary, secondary, scores = scenarios[idx % len(scenarios)]
             role = cfg.primary_roles[idx % len(cfg.primary_roles)]
             product = cfg.primary_products[idx % len(cfg.primary_products)]
@@ -71,7 +99,7 @@ class OperatorTrainingBuilder(SectionBuilder):
 
             meta = make_metadata(
                 section="operator_decision_logic",
-                index=idx,
+                index=idx + 1,
                 complexity=complexity,
                 tags=["operator_selection", "rag_router", cfg.agent_name.lower()],
                 reasoning_mode="chain_of_thought",
