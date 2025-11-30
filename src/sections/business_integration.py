@@ -18,7 +18,7 @@ class BusinessIntegrationTrainingBuilder(SectionBuilder):
 
     def build_examples(self) -> List[Dict[str, Any]]:
         cfg = self.config
-        n = 100
+        n = cfg.business_integration_samples
         examples: List[Dict[str, Any]] = []
 
         for idx, (role, region, product) in enumerate(

@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from src.domain_config import DomainConfig
+from .domain_config import DomainConfig
 from .factory import SectionBuilderFactory
 from .utils import save_json_array
 

@@ -17,7 +17,7 @@ class HardNegativesTrainingBuilder(SectionBuilder):
 
     def build_examples(self) -> List[Dict[str, Any]]:
         cfg = self.config
-        n = 28
+        n = cfg.hard_negatives_samples
         examples: List[Dict[str, Any]] = []
 
         # Provide variation in question phrasing and responses to avoid overfitting
