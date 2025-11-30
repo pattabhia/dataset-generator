@@ -5,7 +5,7 @@ from __future__ import annotations
 from typing import Any, Dict, List
 
 from .base import SectionBuilder
-from src.utils import make_metadata
+from ..utils import make_metadata
 
 
 class RagContextTrainingBuilder(SectionBuilder):
@@ -17,7 +17,7 @@ class RagContextTrainingBuilder(SectionBuilder):
 
     def build_examples(self) -> List[Dict[str, Any]]:
         cfg = self.config
-        n = 200
+        n = cfg.rag_context_samples
         examples: List[Dict[str, Any]] = []
 
         # Define varied input and output templates for conflict resolution tasks.

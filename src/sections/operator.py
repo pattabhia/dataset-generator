@@ -5,7 +5,7 @@ from __future__ import annotations
 from typing import Any, Dict, List
 
 from .base import SectionBuilder
-from src.utils import make_metadata
+from ..utils import make_metadata
 
 
 def validate_operator_scores(scores: Dict[str, float], tolerance: float = 0.01) -> None:
@@ -40,7 +40,7 @@ class OperatorTrainingBuilder(SectionBuilder):
 
     def build_examples(self) -> List[Dict[str, Any]]:
         cfg = self.config
-        n = 100
+        n = cfg.operator_samples
         examples: List[Dict[str, Any]] = []
 
         # A richer set of routing scenarios to provide the model with more varied

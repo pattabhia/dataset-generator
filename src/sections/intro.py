@@ -19,7 +19,7 @@ class IntroTrainingBuilder(SectionBuilder):
 
     def build_examples(self) -> List[Dict[str, Any]]:
         cfg = self.config
-        n = 100
+        n = cfg.intro_samples
         examples: List[Dict[str, Any]] = []
 
         # Provide varied templates for greetings, capabilities and limitations to reduce

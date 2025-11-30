@@ -25,6 +25,12 @@ class DomainConfig:
     currencies: Optional[List[str]] = None
     # New field
     company_kb_facts: Optional[List[str]] = None
+    # Sample counts for section builders (configurable via YAML or defaults)
+    intro_samples: int = 100
+    operator_samples: int = 100
+    rag_context_samples: int = 200
+    business_integration_samples: int = 100
+    hard_negatives_samples: int = 28
 
 
 def load_domain_config(config_path: Path, domain_id: str) -> DomainConfig:
@@ -48,8 +54,12 @@ def load_domain_config(config_path: Path, domain_id: str) -> DomainConfig:
                 entity_types=d["entity_types"],
                 expense_doc_types=d.get("expense_doc_types"),
                 currencies=d.get("currencies"),
-                company_kb_facts=d.get("company_kb_facts")
-                
+                company_kb_facts=d.get("company_kb_facts"),
+                intro_samples=d.get("intro_samples", 100),
+                operator_samples=d.get("operator_samples", 100),
+                rag_context_samples=d.get("rag_context_samples", 200),
+                business_integration_samples=d.get("business_integration_samples", 100),
+                hard_negatives_samples=d.get("hard_negatives_samples", 28),
             )
 
     raise ValueError(f"Domain id '{domain_id}' not found in {config_path}")

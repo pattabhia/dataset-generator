@@ -5,7 +5,7 @@ from __future__ import annotations
 from typing import Any, Dict, List
 
 from .base import SectionBuilder
-from src.utils import make_metadata, generate_diverse_entity_names
+from ..utils import make_metadata, generate_diverse_entity_names
 
 
 class EntityClassificationTrainingBuilder(SectionBuilder):
