@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import json
 from typing import Any, Dict, List
 
 from .base import SectionBuilder
@@ -60,7 +61,7 @@ class ExpenseDocumentsTrainingBuilder(SectionBuilder):
             task = task_templates[idx % len(task_templates)]
             instruction = f"{task} Document type: {doc_type}."
 
-            output = {
+            output_dict = {
                 "document_type": doc_type,
                 "invoice_number": invoice_no,
                 "vendor_name": vendor,
@@ -90,7 +91,7 @@ class ExpenseDocumentsTrainingBuilder(SectionBuilder):
                 "system": system,
                 "instruction": instruction,
                 "input": raw_doc,
-                "output": output,
+                "output": json.dumps(output_dict, ensure_ascii=False),
                 "metadata": metadata
             })
 

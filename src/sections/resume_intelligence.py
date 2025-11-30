@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import json
 from typing import Any, Dict, List
 
 from .base import SectionBuilder
@@ -63,7 +64,7 @@ class ResumeIntelligenceTrainingBuilder(SectionBuilder):
             # Choose an instruction template
             instruction = instruction_templates[idx % len(instruction_templates)]
 
-            output = {
+            output_dict = {
                 "name": name,
                 "current_title": role,
                 "current_company": company,
@@ -101,7 +102,7 @@ class ResumeIntelligenceTrainingBuilder(SectionBuilder):
                 "system": system,
                 "instruction": instruction,
                 "input": resume_text,
-                "output": output,
+                "output": json.dumps(output_dict, ensure_ascii=False),
                 "metadata": metadata,
             })
 
