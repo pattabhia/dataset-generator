@@ -22,6 +22,7 @@ from .sections import (
     EntityReasoningDepthTrainingBuilder,
     AdvancedEntityClassificationTrainingBuilder,
     AdvancedOperatorDecisionBuilder,
+    DialogueExpenseTrainingBuilder,
 )
 
 
@@ -91,9 +92,6 @@ class SectionBuilderFactory:
         )
         if self._include_expense_docs and is_expense:
             builders.append(ExpenseDocumentsTrainingBuilder(cfg))
-            # Import the dialogue builder lazily to avoid circular dependencies. Note
-            # that dialogue_expense lives in the sections subpackage.
-            from .sections.dialogue_expense import DialogueExpenseTrainingBuilder  # type: ignore
             builders.append(DialogueExpenseTrainingBuilder(cfg))
 
         return builders
