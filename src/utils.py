@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import hashlib
 import json
 from pathlib import Path
 from typing import Any, Dict, List
@@ -117,11 +118,12 @@ def validate_example(example: Dict[str, Any]) -> bool:
 
 
 def deduplicate_examples(examples: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-    """Remove duplicate examples based on instruction and output prefix.
+    """Remove duplicate examples based on instruction, input, and full output hash.
 
-    This function hashes each example by its instruction (empty string if not
-    provided) and the first 100 characters of the output (stringified). Only
-    the first occurrence of a hash is kept.
+    This function hashes each example by creating an MD5 hash of the
+    concatenation of instruction, input, and the complete output. This ensures
+    examples with different full outputs are not incorrectly deduplicated even
+    if they share the same prefix. Only the first occurrence of a hash is kept.
 
     Parameters
     ----------
@@ -136,9 +138,17 @@ def deduplicate_examples(examples: List[Dict[str, Any]]) -> List[Dict[str, Any]]
     seen: set = set()
     unique_examples: List[Dict[str, Any]] = []
     for ex in examples:
-        key = (ex.get("instruction", ""), str(ex.get("output"))[:100])
-        if key not in seen:
-            seen.add(key)
+        # Use full output with hash to avoid false positives from prefix matching
+        instruction = ex.get("instruction", "")
+        input_text = str(ex.get("input", ""))
+        output_text = str(ex.get("output", ""))
+
+        # Create a hash of the full content
+        content = f"{instruction}|{input_text}|{output_text}"
+        content_hash = hashlib.md5(content.encode('utf-8')).hexdigest()
+
+        if content_hash not in seen:
+            seen.add(content_hash)
             unique_examples.append(ex)
     return unique_examples
 
@@ -200,6 +210,10 @@ def save_json_array(path: Path, items: List[Dict[str, Any]]) -> None:
     writes them to a ``*_stats.json`` file alongside the dataset. If the
     directory does not exist it will be created.
 
+    For sections with inherently low unique combinations (operator-training,
+    entity_reasoning_depth), deduplication is skipped to preserve diverse
+    training examples even if they share similar patterns.
+
     Parameters
     ----------
     path: Path
@@ -207,8 +221,21 @@ def save_json_array(path: Path, items: List[Dict[str, Any]]) -> None:
     items: list of dicts
         The raw examples to be cleaned and saved.
     """
-    # Filter out invalid examples and remove duplicates
-    cleaned = deduplicate_examples([ex for ex in items if validate_example(ex)])
+    # Sections that should skip deduplication due to limited dimension variety
+    no_dedup_sections = {
+        "operator-training.json",
+        "entity_reasoning_depth_training.json",
+    }
+
+    # Filter out invalid examples
+    validated = [ex for ex in items if validate_example(ex)]
+
+    # Skip deduplication for certain sections to preserve template variety
+    if path.name in no_dedup_sections:
+        cleaned = validated
+    else:
+        cleaned = deduplicate_examples(validated)
+
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8") as f:
         json.dump(cleaned, f, ensure_ascii=False, indent=2)

@@ -8,6 +8,10 @@ domains:
     primary_products: ["HAIIndexer", "HAIReach", "VSMA"]
     primary_roles: ["CTO", "CIO", "Head of Architecture"]
     primary_regions: ["Global", "UAE", "India", "Europe"]
+    # Increased sample counts to account for deduplication (40-60% dedup rate observed)
+    operator_samples: 170  # Target: 100 unique after dedup
+    hard_negatives_samples: 150
+    business_integration_samples: 200
     entity_types:
       - "Person"
       - "Project"
@@ -45,6 +49,10 @@ domains:
     primary_products: ["HAIExpenseLens", "HAIIndexer", "HAIReach"]
     primary_roles: ["CFO", "Finance Controller", "Expense Ops Lead", "Internal Auditor"]
     primary_regions: ["Global", "UAE", "India", "Nigeria"]
+    # Increased sample counts to account for deduplication (40-60% dedup rate observed)
+    operator_samples: 170  # Target: 100 unique after dedup
+    hard_negatives_samples: 150
+    business_integration_samples: 200
     entity_types:
       - "Person"
       - "CostCenter"
