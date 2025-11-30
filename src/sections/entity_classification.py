@@ -5,7 +5,7 @@ from __future__ import annotations
 from typing import Any, Dict, List
 
 from .base import SectionBuilder
-from ..utils import make_metadata, generate_diverse_entity_names
+from ..utils import make_metadata, generate_diverse_entity_names, classify_entity_name
 
 
 class EntityClassificationTrainingBuilder(SectionBuilder):
@@ -40,10 +40,16 @@ class EntityClassificationTrainingBuilder(SectionBuilder):
             )
             instr_template = instruction_templates[idx % len(instruction_templates)]
             instruction = instr_template.format(name=name)
-            output = (
-                f"The entity '{name}' belongs to the {cfg.domain_name} domain and should be mapped "
-                "to one or more of the configured entity types."
-            )
+
+            # Use the classifier to get actual entity types instead of generic output
+            labels = classify_entity_name(name, cfg.entity_types)
+
+            # Generate a proper classification output
+            if len(labels) == 1:
+                output = f"This entity belongs to the type: {labels[0]}"
+            else:
+                output = f"This entity belongs to the following types: {', '.join(labels)}"
+
             meta = make_metadata(
                 section="entity_classification",
                 index=idx,
@@ -52,6 +58,7 @@ class EntityClassificationTrainingBuilder(SectionBuilder):
                 reasoning_mode="classification",
                 confidence=0.9 if idx % 4 != 0 else 0.7,
                 possible_labels=cfg.entity_types,
+                classified_as=labels,
                 variant_id=idx,
             )
             examples.append({

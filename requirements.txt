@@ -1,10 +1,14 @@
 # Dataset Generator Dependencies
+# This project generates training datasets for LLM fine-tuning
 
 # Core dependencies
 PyYAML>=6.0.1
 
-# Development dependencies (optional, uncomment if needed)
-# pytest>=7.4.0
-# black>=23.0.0
-# mypy>=1.5.0
-# ruff>=0.0.292
+# Development dependencies (recommended for code quality)
+pytest>=7.4.0
+black>=23.0.0
+mypy>=1.5.0
+ruff>=0.0.292
+
+# Additional utilities
+# jq for JSON formatting (install via system package manager: apt-get install jq / brew install jq)

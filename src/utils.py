@@ -227,6 +227,107 @@ def default_expense_doc_types(cfg: DomainConfig) -> List[str]:
     return cfg.expense_doc_types or ["Invoice", "Bill", "Receipt"]
 
 
+def classify_entity_name(name: str, entity_types: List[str]) -> List[str]:
+    """Classify an entity name into one or more entity types based on keywords.
+
+    This function uses keyword matching to determine which entity types apply
+    to a given entity name. It's designed to work with domain-specific entity
+    types and provides rule-based classification for training data generation.
+
+    Parameters
+    ----------
+    name: str
+        The entity name to classify.
+    entity_types: list of str
+        Available entity types for the domain (from config).
+
+    Returns
+    -------
+    list of str
+        A list of matching entity types. Returns ["Unknown"] if no match found.
+    """
+    n = name.lower()
+    labels = []
+
+    # Person keywords
+    person_keywords = ["mr ", "ms ", "mrs ", "dr ", "prof ", "ceo", "cto", "cio",
+                      "cfo", "person", "manager", "director", "head of", "controller",
+                      "lead", "auditor", "architect", "engineer"]
+    if any(keyword in n for keyword in person_keywords):
+        if "Person" in entity_types:
+            labels.append("Person")
+
+    # Cost Center keywords
+    if any(x in n for x in ["cost center", "costcenter", "cc-", "department"]):
+        if "CostCenter" in entity_types:
+            labels.append("CostCenter")
+
+    # Expense Policy keywords
+    if any(x in n for x in ["policy", "travel policy", "reimbursement", "meal policy",
+                           "expense policy", "guideline"]):
+        if "ExpensePolicy" in entity_types:
+            labels.append("ExpensePolicy")
+
+    # Expense Report keywords
+    if any(x in n for x in ["expense report", "expense claim", "reimbursement report"]):
+        if "ExpenseReport" in entity_types:
+            labels.append("ExpenseReport")
+
+    # Vendor keywords
+    if any(x in n for x in ["vendor", "supplier", "merchant"]):
+        if "Vendor" in entity_types:
+            labels.append("Vendor")
+
+    # GL Account keywords
+    if any(x in n for x in ["gl account", "glaccount", "general ledger", "account code"]):
+        if "GLAccount" in entity_types:
+            labels.append("GLAccount")
+
+    # Invoice keywords
+    if "invoice" in n:
+        if "Invoice" in entity_types:
+            labels.append("Invoice")
+
+    # Receipt keywords
+    if "receipt" in n:
+        if "Receipt" in entity_types:
+            labels.append("Receipt")
+
+    # Card Transaction keywords
+    if any(x in n for x in ["credit card", "card transaction", "debit card",
+                           "cardtransaction", "card payment"]):
+        if "CardTransaction" in entity_types:
+            labels.append("CardTransaction")
+
+    # Project keywords
+    if any(x in n for x in ["project", "initiative", "program"]):
+        if "Project" in entity_types:
+            labels.append("Project")
+
+    # Skill keywords
+    if any(x in n for x in ["skill", "competency", "expertise", "capability"]):
+        if "Skill" in entity_types:
+            labels.append("Skill")
+
+    # Organization keywords
+    if any(x in n for x in ["organization", "organisation", "company", "enterprise",
+                           "corporation", "firm"]):
+        if "Organization" in entity_types:
+            labels.append("Organization")
+
+    # Product keywords
+    if any(x in n for x in ["product", "solution", "platform", "tool", "system"]):
+        if "Product" in entity_types:
+            labels.append("Product")
+
+    # Architecture Pattern keywords
+    if any(x in n for x in ["architecture", "pattern", "design pattern", "framework"]):
+        if "ArchitecturePattern" in entity_types:
+            labels.append("ArchitecturePattern")
+
+    return labels if labels else ["Unknown"]
+
+
 def generate_diverse_entity_names(cfg: DomainConfig, n: int) -> List[str]:
     """Generate a diverse list of entity-like names for classification tasks.
 
