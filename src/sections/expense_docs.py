@@ -5,7 +5,7 @@ from __future__ import annotations
 from typing import Any, Dict, List
 
 from .base import SectionBuilder
-from ..utils import default_currencies, default_expense_doc_types
+from ..utils import default_currencies, default_expense_doc_types, make_metadata
 
 
 class ExpenseDocumentsTrainingBuilder(SectionBuilder):
@@ -44,11 +44,20 @@ class ExpenseDocumentsTrainingBuilder(SectionBuilder):
                 "is compliant with basic policy rules (only high-level, no real legal advice)."
             )
 
+            # Introduce variation in extraction task phrasing
             if doc_type.lower() in ["invoice", "bill"]:
-                task = "Extract and normalize all key fields from this document."
+                task_templates = [
+                    "Extract and normalize all key fields from this document.",
+                    "Identify and standardize each important field in this document.",
+                    "List all critical fields from this document in a structured format.",
+                ]
             else:
-                task = "Identify key fields and classify this document type."
-
+                task_templates = [
+                    "Identify key fields and classify this document type.",
+                    "Classify this document and extract its key attributes.",
+                    "Determine the document type and capture essential fields.",
+                ]
+            task = task_templates[idx % len(task_templates)]
             instruction = f"{task} Document type: {doc_type}."
 
             output = {
@@ -66,14 +75,16 @@ class ExpenseDocumentsTrainingBuilder(SectionBuilder):
                 ]
             }
 
-            metadata = {
-                "section": "expense_docs",
-                "index": idx,
-                "complexity": "medium",
-                "tags": ["invoice_parsing", "expense_docs", doc_type.lower()],
-                "reasoning_mode": "extraction+classification",
-                "is_synthetic": True
-            }
+            metadata = make_metadata(
+                section="expense_docs",
+                index=idx,
+                complexity="medium",
+                tags=["invoice_parsing", "expense_docs", doc_type.lower()],
+                reasoning_mode="extraction+classification",
+                is_negative_example=False,
+                is_synthetic=True,
+                document_type=doc_type,
+            )
 
             examples.append({
                 "system": system,

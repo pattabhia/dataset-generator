@@ -20,6 +20,7 @@ from .resume_intelligence import ResumeIntelligenceTrainingBuilder
 from .entity_reasoning_depth import EntityReasoningDepthTrainingBuilder
 from .advanced_entity_classification import AdvancedEntityClassificationTrainingBuilder
 from .advanced_operator_logic import AdvancedOperatorDecisionBuilder
+from .dialogue_expense import DialogueExpenseTrainingBuilder
 
 __all__ = [
     "SectionBuilder",
@@ -38,4 +39,5 @@ __all__ = [
     "EntityReasoningDepthTrainingBuilder",
     "AdvancedEntityClassificationTrainingBuilder",
     "AdvancedOperatorDecisionBuilder",
+    "DialogueExpenseTrainingBuilder",
 ]

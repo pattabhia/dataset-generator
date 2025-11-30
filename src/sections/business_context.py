@@ -5,6 +5,7 @@ from __future__ import annotations
 from typing import Any, Dict, List
 
 from .base import SectionBuilder
+from ..utils import make_metadata
 
 
 class BusinessContextReasoningBuilder(SectionBuilder):
@@ -32,6 +33,8 @@ class BusinessContextReasoningBuilder(SectionBuilder):
             "Describe how {product} helps a {role} achieve their business KPIs.",
             "Explain the end-to-end flow from KPI definition to AI system execution.",
             "Describe how {company} supports enterprise transformation in {region}.",
+            "Tell a story about how {company}'s platform drives transformation for a {role} in {region} using {product}.",
+            "Discuss the KPI-driven narrative of {company} with examples involving {product} and a {role} in {region}.",
         ]
 
         for idx in range(1, n + 1):
@@ -53,23 +56,30 @@ class BusinessContextReasoningBuilder(SectionBuilder):
                 "stakeholders, transformation goals, and measurable outcomes."
             )
 
-            output = (
-                f"{cfg.company_name} starts from a concrete KPI (such as reduced processing time, "
-                "better compliance, or higher approval throughput) and then composes the supporting "
-                f"AI workflow using components like {product}. For a {role} in {region}, the story is "
-                "not just about features, but about traceable impact: where the data comes from, how "
-                "decisions are made, and how the platform fits into existing systems."
-            )
+            # Provide variety in outputs by changing phrasing slightly
+            if idx % 2 == 0:
+                output = (
+                    f"{cfg.company_name} starts from a concrete KPI (such as reduced processing time, "
+                    "better compliance, or higher approval throughput) and then composes the supporting "
+                    f"AI workflow using components like {product}. For a {role} in {region}, the story is "
+                    "not just about features, but about traceable impact: where the data comes from, how "
+                    "decisions are made, and how the platform fits into existing systems."
+                )
+            else:
+                output = (
+                    f"The KPI-driven approach at {cfg.company_name} begins with measurable goals and backtracks to the necessary AI building blocks, such as {product}. "
+                    f"A {role} in {region} doesn’t just want features – they need to understand the end-to-end impact, from data ingestion and decision-making to how the solution integrates with existing platforms."
+                )
 
-            metadata = {
-                "section": "business_context_reasoning",
-                "index": idx,
-                "complexity": "high",
-                "tags": ["business_context", "kpi", "transformation", "narrative"],
-                "reasoning_mode": "business_story",
-                "audience": role,
-                "region": region,
-            }
+            metadata = make_metadata(
+                section="business_context",
+                index=idx,
+                complexity="high",
+                tags=["business_context", "kpi", "transformation", "narrative"],
+                reasoning_mode="business_story",
+                audience=role,
+                region=region,
+            )
 
             examples.append({
                 "system": system,

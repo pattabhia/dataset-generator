@@ -5,6 +5,7 @@ from __future__ import annotations
 from typing import Any, Dict, List
 
 from .base import SectionBuilder
+from src.utils import make_metadata, generate_diverse_entity_names
 
 
 class EntityClassificationTrainingBuilder(SectionBuilder):
@@ -19,39 +20,46 @@ class EntityClassificationTrainingBuilder(SectionBuilder):
         n = 100
         examples: List[Dict[str, Any]] = []
 
-        sample_entities = [
-            "Travel Reimbursement Workflow",
-            "Employee Meal Voucher",
-            "Corporate Credit Card",
-            "GL Account 5400 – Travel",
-            "Policy Owner: Finance Controller",
-            "Vendor: ACME Cabs Pvt Ltd",
-            "Expense Report ER-2025-00123",
+        # Generate a diverse set of entity names. This helps avoid overfitting on a
+        # small static list and encourages the classifier to generalize. The
+        # number of names generated matches the dataset size.
+        names = generate_diverse_entity_names(cfg, n)
+        instruction_templates = [
+            "Classify the entity type for: {name}",
+            "What type of entity is {name}?",
+            "Can you tell me the category for {name}?",
+            "Identify this: {name}",
+            "Is {name} a vendor or something else?",
         ]
 
         for idx in range(1, n + 1):
-            name = sample_entities[idx % len(sample_entities)]
+            name = names[idx - 1]
             system = (
                 f"You are {cfg.agent_name} classification module. "
                 "Classify the given string into one or more entity types."
             )
-            instruction = f"Classify the entity type for: {name}"
+            instr_template = instruction_templates[idx % len(instruction_templates)]
+            instruction = instr_template.format(name=name)
             output = (
                 f"The entity '{name}' belongs to the {cfg.domain_name} domain and should be mapped "
                 "to one or more of the configured entity types."
             )
-            metadata = {
-                "category": "entity_classification",
-                "variant_id": idx,
-                "confidence": "high" if idx % 4 != 0 else "medium",
-                "possible_labels": cfg.entity_types,
-            }
+            meta = make_metadata(
+                section="entity_classification",
+                index=idx,
+                complexity="medium",
+                tags=["classification", "entity"],
+                reasoning_mode="classification",
+                confidence=0.9 if idx % 4 != 0 else 0.7,
+                possible_labels=cfg.entity_types,
+                variant_id=idx,
+            )
             examples.append({
                 "system": system,
                 "instruction": instruction,
                 "input": name,
                 "output": output,
-                "metadata": metadata,
+                "metadata": meta,
             })
 
         return examples

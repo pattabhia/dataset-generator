@@ -1,12 +1,12 @@
 # 📦 LLaMAFactory Dataset Generator
 
-## _Modular · SOLID · DRY · Extensible · Multi-Domain Dataset Builder for SFT/Reward Training_
+### _Modular · SOLID · DRY · Extensible · Multi-Domain Dataset Builder for SFT/Reward Training_
 
 ---
 
 ## 🚀 Features
 
-## **1. Multi-Domain Support**
+### **1. Multi-Domain Support**
 
 Select any domain using:
 
@@ -16,7 +16,7 @@ Select any domain using:
 --domain <your-custom-domain>
 ```
 
-## **2. YAML Configuration**
+### **2. YAML Configuration**
 
 Everything (company, agent name, products, regions, doc types, currencies) is
 controlled through:
@@ -31,13 +31,13 @@ No need to edit Python files for domain updates.
 
 ## ⚙️ How to Run
 
-## **1. Install dependencies**
+### **1. Install dependencies**
 
 ```bash
 pip install pyyaml
 ```
 
-## **2. Prepare your `config.yaml`**
+### **2. Prepare your `config.yaml`**
 
 Example:
 
@@ -59,13 +59,13 @@ domains:
 
 ---
 
-## **3. Run the CLI**
+### **3. Run the CLI**
 
 ```bash
 python -m dataset_generator.cli   --config config.yaml   --domain expense   --out-dir ./training-jsons
 ```
 
-## Output:
+### Output:
 
 ```
 training-jsons/
@@ -100,51 +100,3 @@ It’s also:
 - **Testable** → Builders are pure functions returning a list of examples
 
 ---
-
-## Makefile Usage
-
-1. Create venv + install deps + generate datasets
-   (all in one command)
-
-```
-make generate
-```
-
-This does:
-
-- Create venv (if not exists)
-- Install dependencies
-- Run dataset generator
-- Output JSON to training-jsons/
-
-**2. Generate for a different domain**
-
-```
-make generate domain=expense
-```
-
-**3. Open venv and run CLI**
-
-```
-make shell
-```
-
-This drops you inside the venv without needing:
-
-```
-source venv/bin/activate
-```
-
-**4. Clean ALL**
-
-```
-make clean
-```
-
-**5. Format generated JSON files using jq**
-
-```
-make format
-```
-
-(Requires jq installed: brew install jq)

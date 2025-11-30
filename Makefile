@@ -36,19 +36,12 @@ generate: install
 # Generate dataset for all domains
 generate-all: install
 	@echo ">>> Reading domains from config.yaml..."
-	@domains=$$($(VENV)/bin/$(PYTHON) - << 'EOF'\
-import yaml\
-with open("config.yaml") as f:\
-	data = yaml.safe_load(f)\
-for d in data.get("domains", []):\
-	print(d["id"])\
-EOF\
-	); \
+	@domains=$$($(VENV)/bin/$(PYTHON) -c 'import yaml, sys; data=yaml.safe_load(open("config.yaml")); print(" ".join([d["id"] for d in data.get("domains", [])]))'); \
 	for dom in $$domains; do \
 		echo ">>> Generating datasets for $$dom"; \
 		$(VENV)/bin/$(PYTHON) -m $(CLI) --config config.yaml --domain $$dom --out-dir $(OUT_DIR)/$$dom; \
-	done
-	@echo ">>> All domains completed."
+	done; \
+	echo ">>> All domains completed."
 
 # Drop into venv shell
 shell: install

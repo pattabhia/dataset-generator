@@ -5,6 +5,7 @@ from __future__ import annotations
 from typing import Any, Dict, List
 
 from .base import SectionBuilder
+from src.utils import make_metadata
 
 
 class OperatorTrainingBuilder(SectionBuilder):
@@ -19,10 +20,32 @@ class OperatorTrainingBuilder(SectionBuilder):
         n = 100
         examples: List[Dict[str, Any]] = []
 
+        # A richer set of routing scenarios to provide the model with more varied
+        # decision patterns. Each tuple contains a key, primary operator, list of
+        # secondary operators and a score distribution. Low confidence and
+        # fallback scenarios are included implicitly by advanced_operator_logic.py.
         scenarios = [
-            ("vdb_only", "VDB", ["KG"], {"vdb": 0.8, "kg": 0.1, "graph": 0.05, "web": 0.05}),
-            ("kg_only", "KG", ["VDB"], {"vdb": 0.1, "kg": 0.8, "graph": 0.05, "web": 0.05}),
-            ("hybrid", "VDB+KG", [], {"vdb": 0.5, "kg": 0.4, "graph": 0.1, "web": 0.0}),
+            ("vdb_high", "VDB", ["KG"], {"vdb": 0.9, "kg": 0.05, "graph": 0.03, "web": 0.02}),
+            ("kg_high", "KG", ["VDB"], {"vdb": 0.05, "kg": 0.9, "graph": 0.03, "web": 0.02}),
+            ("graph_only", "Graph", ["VDB"], {"vdb": 0.2, "kg": 0.2, "graph": 0.5, "web": 0.1}),
+            ("hybrid_balanced", "VDB+KG", [], {"vdb": 0.45, "kg": 0.45, "graph": 0.1, "web": 0.0}),
+            ("low_confidence", "VDB", ["KG", "Graph"], {"vdb": 0.3, "kg": 0.3, "graph": 0.3, "web": 0.1}),
+        ]
+
+        # Instruction templates to reduce repetition
+        instruction_templates = [
+            "As a {role}, explain the role of {product} in {domain}.",
+            "What does {product} do for {role} in {domain} processes?",
+            "Describe how {role}s use {product} in {domain}.",
+            "Summarize how {product} is used by a {role} in {domain}.",
+            "In two sentences, describe {product}'s purpose for a {role} in {domain}.",
+        ]
+
+        output_templates = [
+            "{product} acts as an intelligence layer for {domain}, drawing on vector search and knowledge graphs to provide answers.",
+            "According to the available context, {product} sits between unstructured data and structured knowledge to support {domain} tasks.",
+            "The tool {product} integrates vector DB and KG to deliver grounded insights for {domain}.",
+            "From the given context, {product} serves as a retrieval and reasoning engine for {domain}.",
         ]
 
         for idx in range(1, n + 1):
@@ -30,16 +53,31 @@ class OperatorTrainingBuilder(SectionBuilder):
             role = cfg.primary_roles[idx % len(cfg.primary_roles)]
             product = cfg.primary_products[idx % len(cfg.primary_products)]
 
-            instruction = f"As a {role}, summarize how {product} is used (sample {idx})."
+            instr_template = instruction_templates[idx % len(instruction_templates)]
+            instruction = instr_template.format(role=role, product=product, domain=cfg.domain_name)
+
             input_ctx = (
                 "Vector DB context:\n"
                 f"- Snippet: description of {product} usage in {cfg.domain_name}\n\n"
                 "Knowledge Graph context:\n"
                 "- Entities: [Product, Capability, Integration]\n"
             )
-            output = (
-                f"{product} is used as an intelligence layer for {cfg.domain_name}, based on "
-                "the available context."
+
+            out_template = output_templates[idx % len(output_templates)]
+            output = out_template.format(product=product, domain=cfg.domain_name)
+
+            # Determine complexity based on scenario
+            complexity = "high" if scenario_key in {"low_confidence", "graph_only"} else "medium"
+
+            meta = make_metadata(
+                section="operator_decision_logic",
+                index=idx,
+                complexity=complexity,
+                tags=["operator_selection", "rag_router", cfg.agent_name.lower()],
+                reasoning_mode="chain_of_thought",
+                confidence=0.8,
+                scenario=scenario_key,
+                question_wrapper="Choose the best operators and answer grounded on context."
             )
 
             examples.append({
@@ -50,18 +88,7 @@ class OperatorTrainingBuilder(SectionBuilder):
                 "instruction": instruction,
                 "input": input_ctx,
                 "output": output,
-                "metadata": {
-                    "section": "operator_decision_logic",
-                    "index": idx,
-                    "complexity": "medium" if scenario_key != "hybrid" else "high",
-                    "scenario": scenario_key,
-                    "tags": ["operator_selection", "rag_router", cfg.agent_name.lower()],
-                    "reasoning_mode": "chain_of_thought",
-                    "confidence": 0.8,
-                    "question_wrapper": (
-                        "Choose the best operators and answer grounded on context."
-                    )
-                },
+                "metadata": meta,
                 "operator_decision": {
                     "primary_operator": primary,
                     "secondary_operators": secondary,
@@ -70,7 +97,7 @@ class OperatorTrainingBuilder(SectionBuilder):
                         "Inspect knowledge graph entities for structured relationships.",
                         "Pick the operator (or combination) that gives the most grounded answer."
                     ],
-                    "operator_scores": scores
+                    "operator_scores": scores,
                 }
             })
 

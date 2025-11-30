@@ -5,6 +5,7 @@ from __future__ import annotations
 from typing import Any, Dict, List
 
 from .base import SectionBuilder
+from src.utils import make_metadata
 
 
 class AdvancedOperatorDecisionBuilder(SectionBuilder):
@@ -55,6 +56,15 @@ class AdvancedOperatorDecisionBuilder(SectionBuilder):
                 "fallback": "KG",
                 "cot_suppressed": True,
             },
+            {
+                "key": "graph_high_risk",
+                "primary": "Graph",
+                "secondary": ["KG", "VDB"],
+                "scores": {"vdb": 0.15, "kg": 0.25, "graph": 0.5, "web": 0.1},
+                "risk_score": 0.7,
+                "fallback": "WEB_SEARCH",
+                "cot_suppressed": False,
+            },
         ]
 
         for idx in range(1, n + 1):
@@ -94,13 +104,15 @@ class AdvancedOperatorDecisionBuilder(SectionBuilder):
                 ),
             }
 
-            metadata = {
-                "section": "advanced_operator_logic",
-                "index": idx,
-                "complexity": "high",
-                "tags": ["operator_selection", "advanced", "risk", "fallback"],
-                "reasoning_mode": "router_decision",
-            }
+            meta = make_metadata(
+                section="advanced_operator_logic",
+                index=idx,
+                complexity="high",
+                tags=["operator_selection", "advanced", "risk", "fallback"],
+                reasoning_mode="router_decision",
+                confidence=0.75,
+                scenario=scenario["key"],
+            )
 
             output = operator_decision
 
@@ -109,7 +121,7 @@ class AdvancedOperatorDecisionBuilder(SectionBuilder):
                 "instruction": instruction,
                 "input": input_ctx,
                 "output": output,
-                "metadata": metadata,
+                "metadata": meta,
             })
 
         return examples

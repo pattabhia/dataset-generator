@@ -5,6 +5,7 @@ from __future__ import annotations
 from typing import Any, Dict, List
 
 from .base import SectionBuilder
+from ..utils import make_metadata
 
 
 class ResumeIntelligenceTrainingBuilder(SectionBuilder):
@@ -32,11 +33,19 @@ class ResumeIntelligenceTrainingBuilder(SectionBuilder):
             "AWS", "Microservices", "React", "Python",
         ]
 
+        # Provide multiple instruction phrases for variety
+        instruction_templates = [
+            "Extract structured resume information from the following text.",
+            "Parse the CV below and return a JSON summary of the candidate's professional history.",
+            "Read the resume and produce a structured representation of the person's work experience, education and skills.",
+        ]
+
         for idx in range(1, n + 1):
             name = f"Candidate {idx:03d}"
             role = "Senior Software Engineer" if idx % 2 == 0 else "Solution Architect"
             company = f"Acme Corp {idx % 7 + 1}"
             years = 6 + (idx % 5)
+            # Ensure at least 4 skills to avoid empty lists
             skills = base_skills[: (idx % len(base_skills)) or 4]
 
             resume_text = (
@@ -51,7 +60,8 @@ class ResumeIntelligenceTrainingBuilder(SectionBuilder):
                 "personal, professional, timeline, and skills information."
             )
 
-            instruction = "Extract structured resume information from the following text."
+            # Choose an instruction template
+            instruction = instruction_templates[idx % len(instruction_templates)]
 
             output = {
                 "name": name,
@@ -77,14 +87,15 @@ class ResumeIntelligenceTrainingBuilder(SectionBuilder):
                 ],
             }
 
-            metadata = {
-                "section": "resume_intelligence",
-                "index": idx,
-                "complexity": "medium",
-                "tags": ["resume", "extraction", "timeline", "skills"],
-                "reasoning_mode": "extraction",
-                "is_synthetic": True,
-            }
+            metadata = make_metadata(
+                section="resume_intelligence",
+                index=idx,
+                complexity="medium",
+                tags=["resume", "extraction", "timeline", "skills"],
+                reasoning_mode="extraction",
+                is_negative_example=False,
+                is_synthetic=True,
+            )
 
             examples.append({
                 "system": system,
