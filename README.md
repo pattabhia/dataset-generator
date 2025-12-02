@@ -1,10 +1,8 @@
 # 📦 LLaMAFactory Dataset Generator
 
-### _Modular · SOLID · DRY · Extensible · Multi-Domain Dataset Builder for SFT/Reward Training_
-
 ---
 
-## 🚀 Features
+## Features
 
 ### **1. Multi-Domain Support**
 
@@ -37,7 +35,7 @@ No need to edit Python files for domain updates.
 
 ---
 
-## ⚙️ How to Run
+## How to Run
 
 ### **1. Install dependencies**
 
@@ -129,16 +127,16 @@ training-jsons/
 
 The project includes a comprehensive Makefile for common tasks:
 
-| Target | Description |
-|--------|-------------|
-| `make install` | Create virtual environment and install dependencies |
-| `make generate` | Generate dataset for a specific domain (use `DOMAIN=name`) |
-| `make generate-all` | Generate datasets for all domains in config.yaml |
-| `make shell` | Enter the virtual environment shell |
-| `make format` | Format all JSON files using jq |
-| `make clean-venv` | Remove virtual environment |
-| `make clean-output` | Remove generated training files |
-| `make clean` | Clean everything (venv + output) |
+| Target              | Description                                                |
+| ------------------- | ---------------------------------------------------------- |
+| `make install`      | Create virtual environment and install dependencies        |
+| `make generate`     | Generate dataset for a specific domain (use `DOMAIN=name`) |
+| `make generate-all` | Generate datasets for all domains in config.yaml           |
+| `make shell`        | Enter the virtual environment shell                        |
+| `make format`       | Format all JSON files using jq                             |
+| `make clean-venv`   | Remove virtual environment                                 |
+| `make clean-output` | Remove generated training files                            |
+| `make clean`        | Clean everything (venv + output)                           |
 
 **Examples:**
 
@@ -188,6 +186,7 @@ The entity classification module uses a keyword-based classifier to generate mea
 - **Extensible**: Easy to add new entity types and keywords in `src/utils.py:classify_entity_name()`
 
 **Example Output:**
+
 ```json
 {
   "system": "You are HAIIndexer classification module. Classify the given string into one or more entity types.",
